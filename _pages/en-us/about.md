@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: about
 permalink: /
-subtitle: Software Engineer, Data Scientist. I like making my wacky dreams come true.  
+subtitle: Software Engineer, Data Scientist. I like making my wacky dreams come true.
 
 profile:
   align: right
@@ -20,4 +20,4 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-About myself. 
+About myself.
