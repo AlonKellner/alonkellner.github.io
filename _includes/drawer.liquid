@@ -1,0 +1,35 @@
+<div class="col">
+  <a href="{% if draw.redirect %}{{ draw.redirect }}{% else %}{{ draw.url | relative_url }}{% endif %}">
+    <div class="card h-100 hoverable">
+      {% if draw.img %}
+        {%
+          include figure.liquid
+          loading="eager"
+          path=draw.img
+          sizes = "250px"
+          alt="draw thumbnail"
+          class="card-img-top"
+        %}
+      {% endif %}
+      <div class="card-body">
+        <h2 class="card-title">{{ draw.title }}</h2>
+        <p class="card-text">{{ draw.description }}</p>
+        <div class="row ml-1 mr-1 p-0">
+          {% if draw.github %}
+            <div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Code Repository">
+                <a href="{{ draw.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
+              </div>
+              {% if draw.github_stars %}
+                <span class="stars" data-toggle="tooltip" title="GitHub Stars">
+                  <i class="fa-solid fa-star"></i>
+                  <span id="{{ draw.github_stars }}-stars"></span>
+                </span>
+              {% endif %}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </a>
+</div>

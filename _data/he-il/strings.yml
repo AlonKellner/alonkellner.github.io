@@ -1,0 +1,118 @@
+first_name: אלון
+middle_name: # no middle name
+last_name: קלנר
+archive_category: ארכיון של פוסטים בקטגוריה
+archive_tag: ארכיון של פוסטים עם התגית
+archive_year: ארכיון של פוסטים מהשנה
+blog:
+  navigation_title: בלוג
+categories:
+  projects:
+    fun: כיף
+    work: עבודה
+  drawer:
+    poetry: שירה
+    stories: סיפורת
+citation:
+  bibtex: "או כרשומת BibTeX:"
+  introduction: "אם זה עזר לכם, בבקשה צטטו כך:"
+contact_note: אפילו ניתן להוסיף הערה קטנה לגבי אילו מהן היא המועדפת כדי להשיג אותך.
+cv:
+  address: כתובת
+  area: אזור
+  awarder: מעניק הפרס
+  awards: פרסים
+  basics: מידע כללי
+  certificates: תעודות
+  city: עיר
+  countryCode: קוד אזורי
+  courses: קורסים
+  date: תאריך
+  education: חינוך
+  email: מייל
+  endDate: תאריך סיום
+  fluency: רהיטות
+  highlights: עיקרי הדברים
+  image: תמונה
+  institution: מוסד
+  interests: נושאי עניין
+  issuer: המדווח
+  keywords: מילות מפתח
+  label: תווית
+  language: שפה
+  languages: שפות
+  level: רמה
+  location: מיקום
+  name: שם
+  network: רשת
+  organization: ארגון
+  phone: טלפון
+  position: תפקיד
+  postalCode: מיקוד
+  profiles: אנשים
+  projects: פרויקטים
+  publications: מאמרים
+  publisher: מוציא לאור
+  reference: אזכור
+  references: אזכורים
+  region: אזור
+  releaseDate: תאריך פרסום
+  score: ציון
+  skills: כישורים
+  startDate: תאריך התחלה
+  studyType: סוג מחקר
+  summary: סיכום
+  table_of_contents: תוכן עניינים
+  title: כותרת
+  url: קישור
+  username: שם משתמש
+  volunteer: מתנדב
+  work: עבודה
+footer_text: > # the ">" symbol means to ignore newlines until "titles:"
+  נוצר באמצעות <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> עם ה-<a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a> theme.
+  מונגש באמצעות <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  תמונות מ-<a href="https://unsplash.com" target="_blank">Unsplash</a>.
+latest_posts: פרסומים אחרונים
+months:
+  long:
+    january: ינואר
+    february: פברואר
+    march: מרץ
+    april: אפריל
+    may: מאי
+    june: יוני
+    july: יולי
+    august: אוגוסט
+    september: ספטמבר
+    october: אוקטובר
+    november: נובמבר
+    december: דצמבר
+  short:
+    january: ינו'
+    february: פבר'
+    march: מרץ
+    april: אפר'
+    may: מאי
+    june: יונ'
+    july: יול'
+    august: אוג'
+    september: ספט'
+    october: אוק'
+    november: נוב'
+    december: דצמ'
+news: חדשות
+no_news: אין חדש...
+pagination:
+  newer: חדש יותר
+  older: ישן יותר
+  page: עמוד
+post:
+  created_in: נוצר ב
+  created_by: נוצר על ידי
+  last_updated: עודכן לאחרונה על ידי
+references: אזכורים
+related_posts:
+  description: "הנה כמה כתבות שאולי תרצה להמשיך אליהם:"
+  title: נהנה מהכתבה?
+selected_publications: מאמרים נבחרים
+site_description: Theme מרווח ופשוט עבור אקדמאים. מבוסס על [*folio](https://github.com/bogoli/-folio).

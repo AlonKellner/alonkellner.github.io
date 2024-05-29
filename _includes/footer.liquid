@@ -1,0 +1,32 @@
+{% capture footer_liquid_style %}{% if page contains 'footer_liquid_style' %}{{ page.footer_liquid_style }}{% elsif site.data[site.active_lang].config contains 'footer_liquid_style' %}{{ site.data[site.active_lang].config.footer_liquid_style }}{% endif %}{% endcapture %}
+{% if site.footer_fixed %}
+  <footer class="fixed-bottom" role="contentinfo" {{ footer_liquid_style }}>
+    <div class="container mt-0">
+      &copy; Copyright {{ site.time | date: '%Y' }}
+      {{ site.first_name }}
+      {{ site.middle_name }}
+      {{ site.last_name }}. {{ site.data[site.active_lang].strings.footer_text }}
+      {% if site.impressum_path %}
+        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+      {% endif %}
+      {% if site.last_updated %}
+        Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+      {% endif %}
+    </div>
+  </footer>
+{% else %}
+  <footer class="sticky-bottom mt-5" role="contentinfo" {{ footer_liquid_style }}>
+    <div class="container">
+      &copy; Copyright {{ site.time | date: '%Y' }}
+      {{ site.first_name }}
+      {{ site.middle_name }}
+      {{ site.last_name }}. {{ site.data[site.active_lang].strings.footer_text }}
+      {% if site.impressum_path %}
+        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+      {% endif %}
+      {% if site.last_updated %}
+        Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+      {% endif %}
+    </div>
+  </footer>
+{% endif %}

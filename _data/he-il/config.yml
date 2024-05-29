@@ -1,0 +1,2 @@
+default_liquid_style: 'dir=rtl style="text-align: right; font-family: Segoe UI"'
+navbar_style: 'style="margin-right: auto; white-space: nowrap"'
