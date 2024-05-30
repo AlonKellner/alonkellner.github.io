@@ -75,7 +75,7 @@ kaggle_id: # alonkellner # your kaggle id
 keybase_username: # your keybase user name
 lastfm_id: # your lastfm id
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-linkedin_username: # alonkellner # your LinkedIn user name
+linkedin_username: alonkellner # your LinkedIn user name
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # alonkellner # your Medium username
 orcid_id: # your ORCID ID
@@ -96,7 +96,7 @@ whatsapp_number: # your WhatsApp number (full phone number in international form
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
 work_url: # work page URL
-x_username: # KellnerAlon # your X handle
+x_username: KellnerAlon # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 

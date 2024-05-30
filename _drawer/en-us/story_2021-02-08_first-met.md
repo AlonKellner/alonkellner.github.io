@@ -9,7 +9,7 @@ importance: 1
 category: stories
 ---
 
-> Thanks to Copilot an Google translate this translation was much quicker, two cheers for both!
+> Thanks to Copilot and Google translate this translation was much quicker, two cheers for both!
 
 When I first met her it wasn't her first time of course, that hardly ever happens these days.  
 I was seventeen when I met her for the first time.  

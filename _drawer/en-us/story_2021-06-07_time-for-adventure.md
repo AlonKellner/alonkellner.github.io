@@ -9,7 +9,7 @@ importance: 1
 category: stories
 ---
 
-> Thanks to Copilot an Google translate this translation was much quicker, two cheers for both!
+> Thanks to Copilot and Google translate this translation was much quicker, two cheers for both!
 
 In the heart of the desert, there is a dune larger than all the others, towering above them and competing with the heights of the mountains.  
 It takes a whole day to climb to the top of the dune, when the adventurer reached the very top of the dune he could see a great distance,  

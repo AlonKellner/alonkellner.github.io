@@ -2,7 +2,7 @@
 page_id: poem_2023-10-04_olmo-and-molinari
 date: 2023-10-04
 layout: page
-title: The Ballad of Olmo and Molinari
+title: The Ballad of Olmo & Molinari
 description: A poem I wrote on a cycling trip in Italy.
 img: /assets/img/olmo-and-molinari.jpeg
 importance: 1
