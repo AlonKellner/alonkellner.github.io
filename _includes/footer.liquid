@@ -25,7 +25,7 @@
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
       {% endif %}
       {% if site.last_updated %}
-        {{ site.last_updated_message }}: {% include date_format.liquid format='short' date='now' %}.
+        {{ site.data[site.active_lang].strings.last_updated_message }}: {% include date_format.liquid format='short' date='now' %}.
       {% endif %}
     </div>
   </footer>
