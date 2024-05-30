@@ -13,7 +13,7 @@ profile:
   more_info: >
     <p>me@alonkellner.com</p>
     <br/>
-    <p>הרצליה, אזור השרון</p>
+    <p>הרצליה, מחוז השרון</p>
 
 news: true # includes a list of news items
 latest_posts: true # includes a list of the newest posts

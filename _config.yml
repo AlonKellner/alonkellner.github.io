@@ -8,7 +8,7 @@ middle_name: # no middle name
 last_name: Kellner
 email: me@alonkellner.com
 keywords: alon, kellner, academic, portfolio, website, software, data-science, speech, waloviz # add your own keywords or leave empty
-icon: 🎗️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.svg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://alonkellner.com # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
