@@ -9,6 +9,8 @@ importance: 1
 category: stories
 ---
 
+> Thanks to Copilot an Google translate this translation was much quicker, two cheers for both!
+
 When I first met her it wasn't her first time of course, that hardly ever happens these days.  
 I was seventeen when I met her for the first time.  
 First meetings always made me nervous, the feeling that I don't know what they know about me gives me chills.  
