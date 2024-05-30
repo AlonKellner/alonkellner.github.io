@@ -9,7 +9,10 @@ importance: 1
 category: poetry
 ---
 
-![Olmo and Molinari]({{ page.img }})
+<img src="{{ page.img }}" alt="Olmo and Molinari" width="400"/>
+<div class="row justify-content-sm-center">
+    {% include figure.liquid path=page.img title="Olmo and Molinari" class="img-fluid rounded z-depth-1" %}
+</div>
 
 I was on a cycling trip with my father in Italy.  
 One day, we went to Villafranca to visit the Nicolis Museum.  

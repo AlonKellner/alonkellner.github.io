@@ -9,7 +9,9 @@ importance: 1
 category: poetry
 ---
 
-![אולמו ומולינרי]({{ page.img }})
+<div class="row justify-content-sm-center">
+    {% include figure.liquid path=page.img title="אולמו ומולינרי" class="img-fluid rounded z-depth-1" %}
+</div>
 
 הייתי בטיול אופניים עם אבא שלי באיטליה, באחד מהימים נסענו לוילהפרנקה כדי להיכנס למוזאון ניקוליס,  
 מוזאון עמוס שמורכב ממגוון אוספיו הפרטיים של המייסד, ממכונות נגינה דרך קריסטלים ומנועי סילון,  
