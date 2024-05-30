@@ -1,5 +1,6 @@
 ---
-page_id: poem_1
+page_id: poem_2023-10-07
+date: 2023-10-07
 layout: page
 title: לצאת ולחזור
 description: שיר שכתבתי בדרך חזרה מאיטליה לארץ, בין ה-7 ל-9 באוקטובר, 2023.

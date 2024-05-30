@@ -389,6 +389,7 @@ imagemagick:
     - ".jpg"
     - ".jpeg"
     - ".png"
+    - ".webp"
     - ".tiff"
     - ".gif"
   output_formats:

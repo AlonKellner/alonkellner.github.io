@@ -1,5 +1,6 @@
 ---
-page_id: poem_1
+page_id: poem_2023-10-07
+date: 2023-10-07
 layout: page
 title: Go and Return
 description: A poem I wrote on my way back from Italy to Israel, between the 7th and 9th of October.
