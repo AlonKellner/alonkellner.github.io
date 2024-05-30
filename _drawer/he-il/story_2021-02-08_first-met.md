@@ -4,7 +4,7 @@ date: 2021-02-08
 layout: page
 title: פגישה ראשונה
 description: סיפור קצר שכתבתי בזמן השירות הצבאי, על נעורים, זוגיות, ביטחון, ומסעות בזמן.
-img: /assets/img/river.jpeg
+img: /assets/img/italian-dish.jpeg
 importance: 1
 category: stories
 ---
