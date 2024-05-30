@@ -1,5 +1,5 @@
 ------
-page_id: poem_2021-06-06
+page_id: story_2021-06-06_river-of-life
 date: 2021-06-06
 layout: page
 title: The River of Life
