@@ -101,7 +101,11 @@
   <meta property="og:title" content="{% if page.title %}{{ title }} | {{ page_title }}{% else %}{{ title }}{% endif %}">
   <meta
     property="og:url"
-    content="{{ page.url | prepend: site.active_lang | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}"
+    {% if site.active_lang == site.default_lang %}
+      content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}"
+    {% else %}
+      content="{{ page.url | prepend: site.active_lang | prepend: '/' | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}"
+    {% endif %}
   >
   <meta property="og:description" content="{{ description }}">
   {% if page.og_image or site.og_image %}
