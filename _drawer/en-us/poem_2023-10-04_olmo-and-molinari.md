@@ -9,7 +9,6 @@ importance: 1
 category: poetry
 ---
 
-<img src="{{ page.img }}" alt="Olmo and Molinari" width="400"/>
 <div class="row justify-content-sm-center">
     {% include figure.liquid path=page.img title="Olmo and Molinari" class="img-fluid rounded z-depth-1" %}
 </div>
