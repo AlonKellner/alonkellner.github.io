@@ -1,4 +1,4 @@
-------
+---
 page_id: story_2021-06-06_river-of-life
 date: 2021-06-06
 layout: page
