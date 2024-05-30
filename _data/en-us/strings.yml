@@ -5,15 +5,15 @@ blog:
   navigation_title: blog
 categories:
   projects:
-    fun: fun
-    work: work
+    fun: Fun
+    work: Work
   drawer:
-    poetry: poetry
-    stories: stories
+    poetry: Poetry
+    stories: Stories
 citation:
   bibtex: "or as a BibTeX entry:"
   introduction: "If you found this useful, please cite this as:"
-contact_note: You can even add a little note about which of these is the best way to reach you.
+contact_note: <a href="mailto:me@alonkellner.com">Send me an email!</a>
 cv:
   address: Address
   area: Area
