@@ -8,7 +8,7 @@ middle_name: # no middle name
 last_name: Kellner
 email: me@alonkellner.com
 keywords: alon, kellner, kellnerz, academic, portfolio, website, software, engineer, data-science, speech, waloviz, poetry, stories, chfsto, cv, blog, אלון, קלנר, קלנרז # add your own keywords or leave empty
-icon: favicon.svg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+# icon: /favicon.svg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://alonkellner.com # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -248,6 +248,10 @@ defaults:
     values:
       sitemap: false
   - scope:
+      path: "site_root"
+    values:
+      sitemap: false
+  - scope:
       path: ""
     values:
       giscus_comments: true
@@ -366,7 +370,7 @@ external_links:
 
 languages: ["en-us", "he-il"]
 default_lang: "en-us"
-exclude_from_localization: ["assets"]
+exclude_from_localization: ["assets", "site_root"]
 lang_from_path: true
 country_flag: true # set true for allowing flag symbol in language toggle
 parallel_localization: false
@@ -385,6 +389,7 @@ imagemagick:
     - 1400
   input_directories:
     - assets/img/
+    - site_root/
   input_formats:
     - ".jpg"
     - ".jpeg"

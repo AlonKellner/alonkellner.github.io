@@ -7,6 +7,7 @@ on:
       - main
     paths:
       - "assets/**"
+      - "site_root/**"
       - "**.html"
       - "**.js"
       - "**.liquid"
@@ -33,6 +34,7 @@ on:
       - main
     paths:
       - "assets/**"
+      - "site_root/**"
       - "**.html"
       - "**.js"
       - "**.liquid"
@@ -77,6 +79,10 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
+      - name: Move site root ➜
+        run: |
+          mv site_root/* ./
+          rm site_root/
       - name: Install and Build 🔧
         run: |
           pip3 install --upgrade jupyter
