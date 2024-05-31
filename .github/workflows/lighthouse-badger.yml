@@ -24,8 +24,8 @@ env:
 # TRIGGERS
 on:
   page_build:
-  # schedule: # Check your schedule here => https://crontab.guru/
-  #   - cron: '55 23 * * 0' # e.g. every Sunday at 23:55
+  schedule:
+    - cron: "35 16 * * *" # e.g. every day at 16:35am
   #
   # THAT'S IT; YOU'RE DONE;
   workflow_dispatch:
