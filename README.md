@@ -15,6 +15,6 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
 
 ### Mobile
 
-[Google Lighthouse PageSpeed Insights](lighthouse_results/mobile/pagespeed.svg)
+![Google Lighthouse PageSpeed Insights](lighthouse_results/mobile/pagespeed.svg)
 
 Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.web.dev/report?url=https%3A%2F%2Falonkellner.com%2F&form_factor=mobile)
