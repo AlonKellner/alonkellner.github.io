@@ -248,10 +248,6 @@ defaults:
     values:
       sitemap: false
   - scope:
-      path: "site_root"
-    values:
-      sitemap: false
-  - scope:
       path: ""
     values:
       giscus_comments: true
@@ -389,7 +385,6 @@ imagemagick:
     - 1400
   input_directories:
     - assets/img/
-    - site_root/
   input_formats:
     - ".jpg"
     - ".jpeg"

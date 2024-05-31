@@ -16,7 +16,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: github.repository_owner == 'george-gca'
+    if: github.repository_owner == 'AlonKellner'
 
     steps:
       - name: Checkout
@@ -40,4 +40,4 @@ jobs:
           context: .
           push: true
           platforms: linux/amd64,linux/arm64/v8
-          tags: georgegca/multi-language-al-folio
+          tags: alonkellner/al-folio
