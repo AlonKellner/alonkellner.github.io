@@ -3,7 +3,7 @@ page_id: blog
 layout: default
 permalink: /blog/
 title: בלוג
-blog_name: בלוג בעברית
+blog_name: קלנרז
 description: כל מה שאי פעם אפרסם יפורסם פה קודם.
 nav: true
 nav_order: 1

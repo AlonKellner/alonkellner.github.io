@@ -3,7 +3,7 @@ page_id: blog
 layout: default
 permalink: /blog/
 title: blog
-blog_name: Kellner's
+blog_name: Kellner'z
 description: Everything that I will ever publish will be published here first.
 nav: true
 nav_order: 1
