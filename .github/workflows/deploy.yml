@@ -82,7 +82,7 @@ jobs:
       - name: Move site root ➜
         run: |
           mv site_root/* ./
-          rm site_root/
+          rmdir site_root/
       - name: Install and Build 🔧
         run: |
           pip3 install --upgrade jupyter
