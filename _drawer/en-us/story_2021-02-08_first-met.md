@@ -46,8 +46,7 @@ Of course! This was my first date with her, and I had lots of questions.
 That was a stupid way to phrase that question.  
 "You are seventeen." she teased.  
 "You know what I mean."  
-"We’re not consistently at a certain age, we both travel a lot because of work, so we usually  
-arrange to meet up with 5-year gap at most. In our last streak you were twenty-seven."  
+"We’re not consistently at a certain age, we both travel a lot because of work, so we usually arrange to meet up with 5-year gap at most. In our last streak you were twenty-seven."  
 twenty seven! A decade separated me from... myself.  
 "So you're not continuous?"  
 "Wer'e not continuous." She corrected me. It was still hard for me to realize that I was a part of this story.  
@@ -56,15 +55,14 @@ I looked into her eyes. Suddenly I noticed how beautiful she was. She had a mesm
 "It just doesn't feel real." I apologized.  
 She thought for a moment and gave me a series look.  
 "Would you like to see pictures?"  
-It wasn't customary to look at pictures of your older self, there were so many stupid superstitions about it,  
-the kind of "If you look at the picture, history will change", of course it's all nonsense. I think.
+It wasn't customary to look at pictures of your older self, there were so many stupid superstitions about it, the kind of "If you look at the picture, history will change", of course it's all nonsense. I think.
 But curiosity got the better of me.  
 "I think I would."  
 She started scrolling through her phone, after a few seconds she handed it to me, face down.  
 I hesitated, but the idea of the act itself excited me.  
 I flipped the phone and was surprised by how mundane the picture looked.  
 It was a picture of the two of us during some mountain hike, wearing warm clothes and sunglasses, not much of our bodies or faces were visible.  
-Still, without a doubt—it was me.  
+Still, without a doubt — it was me.  
 A bit sturdier, with a groomed beard and a different haircut, and with a more mature look, more confident in himself... in myself.  
 It was me, and she was by my side. Both in an affectionate one arm hug.  
 "Scroll right." she said.  
