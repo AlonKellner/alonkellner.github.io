@@ -2,7 +2,7 @@
 page_id: story_2021-02-08_first-met
 date: 2021-02-08
 layout: page
-title: First met
+title: First Met
 description: A short story I wrote during my service, about youth, partnership, confidence and time-travels.
 img: /assets/img/italian-dish.jpeg
 importance: 1
