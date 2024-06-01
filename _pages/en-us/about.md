@@ -7,7 +7,7 @@ subtitle: Software Engineer, Data Scientist. I like making my wacky dreams come 
 
 profile:
   align: right
-  image: headshot.jpg
+  image: headshot.png
   image_compare: true
   alt_image: headshot-clipart.svg
   image_circular: false # crops the image to make it circular
