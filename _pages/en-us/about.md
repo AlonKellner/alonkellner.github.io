@@ -8,11 +8,16 @@ subtitle: Software Engineer, Data Scientist. I like making my wacky dreams come 
 profile:
   align: right
   image: headshot.jpg
+  image_slider: true
+  alt_image: headshot.svg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>me@alonkellner.com</p>
     <br/>
     <p>Herzliya, Sharon plain</p>
+
+images:
+  slider: true
 
 news: true # includes a list of news items
 latest_posts: true # includes a list of the newest posts

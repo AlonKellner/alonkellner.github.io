@@ -30,12 +30,25 @@ layout: default
           {% else %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
+          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+          {% if page.profile.image_slider %}
+            {% assign alt_image_path = page.profile.alt_image | prepend: 'assets/img/' %}
+            <img-comparison-slider>
+              {%
+                include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+                cache_bust=true
+              %}
+              {%
+                include figure.liquid loading="eager" path=alt_image_path class=profile_image_class sizes=sizes alt=page.profile.alt_image
+                cache_bust=true
+              %}
+            </img-comparison-slider>
+          {% else %}
+            {%
+              include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+              cache_bust=true
+            %}
+          {% endif %}
         {% endif %}
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
