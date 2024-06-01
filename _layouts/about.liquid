@@ -36,11 +36,11 @@ layout: default
             <img-comparison-slider>
               {%
                 include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-                cache_bust=true
+                cache_bust=true slot="first"
               %}
               {%
                 include figure.liquid loading="eager" path=alt_image_path class=profile_image_class sizes=sizes alt=page.profile.alt_image
-                cache_bust=true
+                cache_bust=true slot="second"
               %}
             </img-comparison-slider>
           {% else %}
