@@ -9,7 +9,7 @@ profile:
   align: right
   image: headshot.jpg
   image_compare: true
-  alt_image: headshot.svg
+  alt_image: headshot-clipart.svg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>me@alonkellner.com</p>
