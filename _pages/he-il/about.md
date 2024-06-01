@@ -7,7 +7,7 @@ permalink: /
 subtitle: מהנדס תוכנה, מדען נתונים. אני אוהב להגשים את החלומות המופרעים שלי.
 
 profile:
-  align: right
+  align: left
   image: headshot.jpg
   image_compare: true
   alt_image: headshot-clipart.svg
