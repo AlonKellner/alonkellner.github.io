@@ -113,6 +113,31 @@ references: אזכורים
 related_posts:
   description: "הנה כמה כתבות שאולי תרצה להמשיך אליהם:"
   title: נהנה מהכתבה?
+search:
+  dark_theme:
+    description: שנה את התצוגה למצב אפל
+    title: שנה למצב אפל
+  dropdown: תפריט בחירה
+  email: שלח מייל
+  footer:
+    close: לסגור
+    navigate: לסייר
+    parent: חזרה לאב
+    select: לבחירה
+  languages: שפות
+  light_theme:
+    description: שנה את התצוגה למצב בהיר
+    title: שנה למצב בהיר
+  navigation: תפריט ניווט
+  news: חדשות
+  placeholder: הקלד כדי לחפש
+  posts: פוסטים
+  projects: פרויקטים
+  socials: רשתות חברתיות
+  system_theme:
+    description: שנה את התצוגה למצב הדיפולטי במכשיר
+    title: השתמש במצב הדיפולטי במכשיר
+  theme: מצב תצוגה
 selected_publications: מאמרים נבחרים
 site_description: פורטפוליו, בלוג וקורות חיים של אלון קלנר, מהנדס תוכנה, מדען נתונים.
 footer_last_updated_message: עודכן לאחרונה
