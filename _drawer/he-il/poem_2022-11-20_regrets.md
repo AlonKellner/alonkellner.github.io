@@ -9,4 +9,4 @@ importance: 1
 category: poetry
 ---
 
-כרגע אין גרסה בעברית לשיר הזה, אתם מוזמנים לקרוא את [הגרסה האנגלית]({{ page.url | prepend: site.baseurl | remove_first: 'he-il/' }}).
+כרגע אין גרסה בעברית לשיר הזה, אתם מוזמנים לקרוא את [הגרסה האנגלית]({{site.baseurl}}/..{{page.url}}).
