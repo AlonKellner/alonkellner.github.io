@@ -15,7 +15,7 @@ profile:
   more_info: >
     <p>me@alonkellner.com</p>
     <br/>
-    <p>Herzliya, Sharon plain</p>
+    <p>הרצליה, מחוז השרון</p>
 
 images:
   compare: true
