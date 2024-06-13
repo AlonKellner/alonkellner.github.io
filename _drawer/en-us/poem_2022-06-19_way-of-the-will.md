@@ -1,5 +1,5 @@
 ---
-page_id: poem_2022-06-19-way-of-the-will
+page_id: poem_2022-06-19_way-of-the-will
 date: 2022-06-19
 layout: page
 title: Way of the Will

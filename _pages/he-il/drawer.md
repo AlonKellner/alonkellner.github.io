@@ -18,7 +18,7 @@ horizontal: false
       <a id="{{ site.data[site.active_lang].strings.categories.drawer[category] }}" href=".#{{ site.data[site.active_lang].strings.categories.drawer[category] }}">
         <h2 class="category">{{ site.data[site.active_lang].strings.categories.drawer[category] }}</h2>
       </a>
-      {% assign categorized_drawer = site.drawer | where: "category", category %}
+      {% assign categorized_drawer = site.drawer | where: "category", category | reverse %}
       {% assign sorted_drawer = categorized_drawer | sort: "importance" %}
       <!-- Generate cards for each draw -->
       {% if page.horizontal %}

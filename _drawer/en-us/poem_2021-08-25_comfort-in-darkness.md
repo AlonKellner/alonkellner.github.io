@@ -1,5 +1,5 @@
 ---
-page_id: poem_2021-08-25-comfort-in-darkness
+page_id: poem_2021-08-25_comfort-in-darkness
 date: 2021-08-25
 layout: page
 title: Comfort in Darkness
