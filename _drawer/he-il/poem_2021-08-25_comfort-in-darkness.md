@@ -1,5 +1,5 @@
 ---
-page_id: poem_2021-08-25-comfort_in-darkness
+page_id: poem_2021-08-25_comfort_in-darkness
 date: 2021-08-25
 layout: page
 title: נחמה בחושך
