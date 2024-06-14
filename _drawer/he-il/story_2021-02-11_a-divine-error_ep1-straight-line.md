@@ -70,13 +70,13 @@ category: stories
 {% if page.horizontal %}
     <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
-        {% assign draw = site.drawer["story_2021-02-10_a-divine-error_index"] %}
+        {% assign draw = site.drawer | where "page_id", "story_2021-02-10_a-divine-error_index" | first %}
         {% include drawer_horizontal.liquid %}
     </div>
     </div>
 {% else %}
     <div class="row row-cols-1 row-cols-md-3">
-        {% assign draw = site.drawer["story_2021-02-10_a-divine-error_index"] %}
+        {% assign draw = site.drawer | where "page_id", "story_2021-02-10_a-divine-error_index" | first %}
         {% include drawer.liquid %}
     </div>
 {% endif %}
