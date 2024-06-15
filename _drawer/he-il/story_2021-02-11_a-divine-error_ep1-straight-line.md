@@ -68,6 +68,8 @@ category: stories
 {% if page.horizontal %}
     <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
+        {% assign draw = site.drawer | find_exp: "draw", "draw.page_id contains '_a-divine-error_ep0-'" %}
+        {% include drawer_horizontal.liquid %}
         {% assign draw = site.drawer | find_exp: "draw", "draw.page_id contains '_a-divine-error_index'" %}
         {% include drawer_horizontal.liquid %}
         {% assign draw = site.drawer | find_exp: "draw", "draw.page_id contains '_a-divine-error_ep2-'" %}
@@ -76,6 +78,8 @@ category: stories
     </div>
 {% else %}
     <div class="row row-cols-1 row-cols-md-3">
+        {% assign draw = site.drawer | find_exp: "draw", "draw.page_id contains '_a-divine-error_ep0-'" %}
+        {% include drawer.liquid %}
         {% assign draw = site.drawer | find_exp: "draw", "draw.page_id contains '_a-divine-error_index'" %}
         {% include drawer.liquid %}
         {% assign draw = site.drawer | find_exp: "draw", "draw.page_id contains '_a-divine-error_ep2-'" %}
