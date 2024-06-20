@@ -4,7 +4,7 @@ date: 2021-03-25
 layout: page
 title: "טעות אלוהית, פרק 6: טעות בדלת"
 description: סיפור קומדיה בהמשכים על פילוסופיה, צבא, החיים ומה שביניהם.
-img: /assets/img/divine-apple-worm.jpeg
+img: /assets/img/scary-itzik.jpeg
 importance: 1
 category: stories
 ---

@@ -4,7 +4,7 @@ date: 2021-03-24
 layout: page
 title: "A Divine Error, Episode 5: The Zeroth Day"
 description: An episodical comedy about philosophy, the military, life and everything in between.
-img: /assets/img/divine-apple-worm.jpeg
+img: /assets/img/person-hole.jpeg
 importance: 1
 category: stories
 ---

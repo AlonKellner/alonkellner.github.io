@@ -4,7 +4,7 @@ date: 2021-03-26
 layout: page
 title: "A Divine Error, Episode 7: Comfort Zone"
 description: An episodical comedy about philosophy, the military, life and everything in between.
-img: /assets/img/divine-apple-worm.jpeg
+img: /assets/img/kettle.jpeg
 importance: 1
 category: stories
 ---
