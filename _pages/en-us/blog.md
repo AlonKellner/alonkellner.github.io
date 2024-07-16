@@ -4,7 +4,7 @@ layout: default
 permalink: /blog/
 title: blog
 blog_name: Kellner'z
-description: Everything that I will ever publish will be published here first.
+description: If you want to know what I've been up to - this is where I publish all of it :)
 nav: true
 nav_order: 1
 pagination:
