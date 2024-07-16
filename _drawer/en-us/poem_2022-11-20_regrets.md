@@ -31,7 +31,7 @@ Nothing but silence.
 Abide. Have pride!  
 There's no shame getting hurt, I got what I deserved and survived!  
 I survived what I felt even though it compelled me to die!  
-It was scolding and loud... but id I'm so damn proud... why do I hide?
+It was scolding and loud... but if I'm so damn proud... why do I hide?
 
 Give in. Reach in.  
 If you love who you are you should not regret who that you've been.  
