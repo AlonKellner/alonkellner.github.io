@@ -4,7 +4,7 @@ layout: default
 permalink: /blog/
 title: Blog
 blog_name: Kellner'z
-description: What have I been up to? I publish all of it here before anywhere else :)
+description: What have I been up to? I publish all of it here first :)
 nav: true
 nav_order: 1
 pagination:
