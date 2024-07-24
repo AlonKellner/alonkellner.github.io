@@ -2,7 +2,7 @@
 page_id: repositories
 layout: page
 permalink: /github/
-title: github
+title: GitHub
 description: My github reputation
 nav: true
 nav_order: 4

@@ -3,7 +3,7 @@ page_id: publications
 layout: page
 permalink: /publications/
 title: מאמרים
-description: המאמרים שלי
+description: כרגע אין לי מאמרים שפורסמו. בתקווה זה ישתנה בקרוב.
 nav: true
 nav_order: 2
 default_liquid_style: # no style

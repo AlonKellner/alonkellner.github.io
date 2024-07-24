@@ -2,7 +2,7 @@
 page_id: publications
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: Currently I have no publications. Hopefully that will change soon.
 nav: true
 nav_order: 2

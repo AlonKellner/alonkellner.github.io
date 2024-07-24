@@ -3,7 +3,7 @@ page_id: repositories
 layout: page
 permalink: /github/
 title: גיטהאב
-description: כהמוניטין שלי בגיטהאב
+description: המוניטין שלי בגיטהאב
 nav: true
 nav_order: 4
 default_liquid_style: # no style

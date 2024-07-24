@@ -1,7 +1,7 @@
 ---
 page_id: drawer
 layout: page
-title: drawer
+title: Drawer
 permalink: /drawer/
 description: My creative drawer. Most of my works are in Hebrew.
 nav: true

@@ -4,7 +4,7 @@ layout: default
 permalink: /blog/
 title: בלוג
 blog_name: קלנרז
-description: כל מה שאי פעם אפרסם יפורסם פה קודם.
+description: מה העסיק אותי? כל זאת אני מפרסם פה לפני כל מקום אחר :)
 nav: true
 nav_order: 1
 pagination:

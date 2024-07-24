@@ -2,9 +2,9 @@
 page_id: blog
 layout: default
 permalink: /blog/
-title: blog
+title: Blog
 blog_name: Kellner'z
-description: If you want to know what I've been up to - this is where I publish all of it :)
+description: What have I been up to? I publish all of it here before anywhere else :)
 nav: true
 nav_order: 1
 pagination:

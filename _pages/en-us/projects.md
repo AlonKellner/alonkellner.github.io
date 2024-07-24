@@ -1,9 +1,9 @@
 ---
 page_id: projects
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: My projects
+description: My projects, typically technological with a corresponding open-source GitHub repository.
 nav: true
 nav_order: 3
 display_categories: [open-source]
