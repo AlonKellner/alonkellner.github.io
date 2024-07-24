@@ -7,9 +7,9 @@ description: המוניטין שלי בגיטהאב
 nav: true
 nav_order: 4
 default_liquid_style: # no style
-header_liquid_style: 'dir=rtl style="text-align: right; font-family: Segoe UI"'
-page_header_liquid_style: 'dir=rtl style="text-align: right; font-family: Segoe UI"'
-footer_liquid_style: 'dir=rtl style="text-align: right; font-family: Segoe UI"'
+header_liquid_style: 'dir=rtl style="text-align: right"'
+page_header_liquid_style: 'dir=rtl style="text-align: right"'
+footer_liquid_style: 'dir=rtl style="text-align: right"'
 ---
 
 ## GitHub users
