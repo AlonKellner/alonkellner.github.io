@@ -27,7 +27,7 @@ social: true # includes social icons at the bottom of the page
 
 I am an experienced Software Engineer & Data Scientist, an 8200 alumnus and a continuous self-builder. I strive to become an Influencial Community Figure and an Autodidact Academic.
 
-This is my portfolio, it displays multiple aspects of myself, from a [CV](cv.md) and [a professional blog](blog.md), through [publications](publications.md) and [projects](projects.md), to [educational content](teaching.md) and [a creative outlet](drawer.md).
+This is my portfolio, it displays multiple aspects of myself, from a [CV](cv) and [a professional blog](blog), through [publications](publications) and [projects](projects), to [educational content](teaching) and [a creative outlet](drawer).
 
 On the 28th of July 2024 I offically launched this portfolio website and started a "Portfolio Year", where in one year I will try to achieve between 5 and 10 successful projects or publications.  
 **My year ends on the 28th of July 2025**, Wish me luck :)
