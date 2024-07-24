@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Cientista",
+    "name": "אלון קלנר",
+    "label": "מהנדס תוכנה, מדען נתונים",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
+    "email": "me@alonkellner.com",
+    "phone": "",
     "url": "https://alonkellner.com/he-il/",
-    "summary": "Um físico teórico alemão, amplamente considerado um dos cientistas mais influentes de todos os tempos",
+    "summary": "בוגר 8200, כרגע בונה את הפורטפוליו המקצועי והאקדמי שלי.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "",
+      "region": ""
     },
     "profiles": [
       {
