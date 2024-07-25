@@ -15,7 +15,7 @@ profile:
   more_info: >
     <p>me@alonkellner.com</p>
     <br/>
-    <p>הרצליה, מחוז השרון</p>
+    <p>הרצליה, מחוז תל-אביב, ישראל</p>
 
 images:
   compare: true
