@@ -8,8 +8,7 @@ blog:
   navigation_title: בלוג
 categories:
   projects:
-    fun: כיף
-    work: עבודה
+    open-source: קוד פתוח
   drawer:
     poetry: שירה
     stories: סיפורת

@@ -6,7 +6,7 @@ permalink: /projects/
 description: הפרויקטים שלי, בדרך כלל טכנולוגיים ונלווה אליהם קוד פתוח ב-GitHub Repository.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [open-source]
 horizontal: false
 ---
 

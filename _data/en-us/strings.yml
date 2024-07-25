@@ -5,8 +5,7 @@ blog:
   navigation_title: blog
 categories:
   projects:
-    fun: Fun
-    work: Work
+    open-source: Open Source
   drawer:
     poetry: Poetry
     stories: Stories
