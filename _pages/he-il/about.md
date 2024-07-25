@@ -4,7 +4,7 @@ page_id: about
 layout: about
 title: על עצמי
 permalink: /
-subtitle: מהנדס תוכנה, מדען נתונים. אני אוהב להגשים את החלומות המופרעים שלי.
+subtitle: אוטודידקט אקדמאי מאידיאולוגיה. מהנדס תוכנה ומדען נתונים
 
 profile:
   align: left
