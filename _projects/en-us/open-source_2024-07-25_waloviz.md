@@ -49,24 +49,25 @@ I made WaloViz with three main things in mind:
     For the full interactive example go to <a href="https://waloviz.com">the WaloViz documentation website!</a>
 </div>
 
-When I am doing audio research I constantly need to hear audio files and see their spectrograms ([What's a Spectrogram?](#whats-a-spectrogram)), for that there are many good dedicated tools that do just that:
+When I am doing audio research I constantly need to listen to audio files and see their spectrograms ([What's a Spectrogram?](#whats-a-spectrogram)), there are many good dedicated tools that do just that, for example:
 
 1. [Adobe Audition](https://www.adobe.com/il_en/products/audition.html)
 2. [Audacity](https://www.audacityteam.org/)
 3. [Ocenaudio](https://www.ocenaudio.com/)
 
+Just to name a few.  
 But they all suffer from the same problem - they are desktop tools that need the audio file locally - while my research is in a Jupyter notebook.
 
 Some might say "that's not that big of an issue, just create a file and download it", but that becomes more and more annoying with more elaborate setups which have more audio files, very quickly it becomes a laboursome mess.
 
-I found myself creating all sorts of ragtag visualizations to help me both play the audio and view it's spectrogram, I was shocked when I learned that many of my colleagues did the exact same thing in many different ways occasions.
+I found myself creating all sorts of ragtag visualizations to help me both play the audio and view it's spectrogram, I was shocked when I learned that many of my colleagues did the exact same thing in many different ways and circumstances.
 
 Things like that drive me nuts!  
 So I did the only sensible thing anyone would do - I created yet another audio player to rule them all :)
 
 ## What's a Spectrogram?
 
-Even if you know what Spectrograms are - the "Twinkle" spectrogram example will show you some advanced features you might like to know, or just feel free to [skip ahead](#advanced-features) :)
+Even if you know what Spectrograms are - the "Twinkle" spectrogram example will show you some advanced features you might like to know, if not - feel free to [skip ahead](#advanced-features) :)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -79,7 +80,7 @@ Even if you know what Spectrograms are - the "Twinkle" spectrogram example will 
 
 A Spectrogram is a big word, it literally means "A Picture of a Spectrum", or in other words it's a visualization of frequencies.
 
-Let's try to think of in musical terms, each musical note has a base frequency associated with it, meaning that using frequencies is very similar to using musical notes, in that sense a Spectrogram is very similar to a musical sheet!
+Let's try to think of it in musical terms, each musical note has a base frequency associated with it, meaning that using frequencies is very similar to using musical notes, in that sense a Spectrogram is very similar to a musical sheet!
 
 {::nomarkdown}
 {% assign jupyter_path = 'assets/jupyter/waloviz/twinkle.ipynb' | relative_url %}
@@ -98,9 +99,9 @@ Let's try to think of in musical terms, each musical note has a base frequency a
 As you go from left to right you go forward in time, and as you go from bottom to top you go higher in pitch (frequency).
 
 In a musical sheet the background is white, and a black spot means that note is played at that moment.  
-In a Spectrogram the background is black, and a bright yellow spot means that a frequency is played at that moment.
+In a Spectrogram the background is black, and a bright yellow spot means that frequency is played at that moment.
 
-One important difference is that on a Spectrogram the brighter the spot - the louder the sound, and it's a smooth transition from very quiet (dark) to very loud (bright).  
+One important difference is that in a Spectrogram the brighter the spot - the louder the sound, and it's a smooth transition from very quiet (dark) to very loud (bright).  
 Another difference is that instead of different kinds of spots, to specify the length of the note the spot is stretched horizontally into a line. The length of the line is the length of the note!
 
 ## Advanced Features
