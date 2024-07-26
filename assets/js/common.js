@@ -40,7 +40,7 @@ $(document).ready(function () {
   let theme = determineComputedTheme();
 
   $(".jupyter-notebook-iframe-container iframe").each(function () {
-    $(this).contents().find("head").append(cssLink);
+    $(this).contents().find("head").append(cssLink.outerHTML);
 
     if (theme == "dark") {
       $(this).contents().find("body").attr({
