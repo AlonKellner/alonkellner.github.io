@@ -20,8 +20,14 @@ Try clicking the spectrogram above, it will start playing :)
 
 ## What is WaloViz?
 
-{% include figure.liquid loading="eager" path="assets/img/waloviz-logo-horizontal.png" title="The WaloViz logo" class="img-fluid rounded z-depth-1" %}
-Take a look at the [official WaloViz website!](https://waloviz.com)
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/waloviz-logo-horizontal.png" title="The WaloViz logo" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Take a look at the [official WaloViz website!](https://waloviz.com)
+</div>
 
 WaloViz is an [open-source](https://github.com/AlonKellner/waloviz) python package for interactive Jupyter notebook based audio research, it creates an interactive audio player with a spectrogram built-in ([What's a Spectrogram?](#What's-a-Spectrogram?)).
 
@@ -35,8 +41,14 @@ I made WaloViz with three main things in mind:
 
 ## Why I started WaloViz
 
-{% include figure.liquid loading="eager" path="assets/img/waloviz-logo-spectrogram.png" title="WaloViz recursion!" class="img-fluid rounded z-depth-1" %}
-For the full interactive example go to [the WaloViz documentation website!](https://waloviz.com)
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/waloviz-logo-spectrogram.png" title="WaloViz recursion!" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    For the full interactive example go to [the WaloViz documentation website!](https://waloviz.com)
+</div>
 
 When I am doing audio research I constantly need to hear audio files and see their spectrograms ([What's a Spectrogram?](#What's-a-Spectrogram?)), for that there are many good dedicated tools that do just that:
 
@@ -57,8 +69,14 @@ So I did the only sensible thing anyone would do - I created yet another audio p
 
 Even if you know what Spectrograms are - the "Twinkle" spectrogram example will show you some advanced features you might like to know, or just feel free to [skip ahead](#Advanced-Features) :)
 
-{% include figure.liquid loading="eager" path="assets/img/spectrogram-tomroelandts.jpg" title="A typical Spectrogram" class="img-fluid rounded z-depth-1" %}
-Image by Tom Roeland, from [his post "What is a Spectrogram?"](https://tomroelandts.com/articles/what-is-a-spectrogram)
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/spectrogram-tomroelandts.jpg" title="A typical Spectrogram" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Image by Tom Roeland, from [his post "What is a Spectrogram?"](https://tomroelandts.com/articles/what-is-a-spectrogram)
+</div>
 
 A Spectrogram is a big word, it literally means "A Picture of a Spectrum", or in other words it's a visualization of frequencies.
 
@@ -69,8 +87,14 @@ Let's try to think of in musical terms, each musical note has a base frequency a
 {% jupyter_notebook jupyter_path %}
 {:/nomarkdown}
 
-{% include figure.liquid loading="eager" path="assets/img/twinkle-music-sheet.png" title="Twinkle Twinkle little Star" class="img-fluid rounded z-depth-1" %}
-A portion of the musical sheet of "Twinkle Twinkle little Star", from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pitch_axis_inversion.png)
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/twinkle-music-sheet.png" title="Twinkle Twinkle little Star" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    A portion of the musical sheet of "Twinkle Twinkle little Star", from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pitch_axis_inversion.png)
+</div>
 
 As you go from left to right you go forward in time, and as you go from bottom to top you go higher in pitch (frequency).
 
