@@ -6,7 +6,6 @@ description: An open-source python package of an interactive audio player with a
 img: /assets/img/waloviz-thumbnail.png
 importance: 1
 category: open-source
-related_publications: true
 ---
 
 ## TL;DR
@@ -29,7 +28,7 @@ Try clicking the spectrogram above, it will start playing :)
     Take a look at the <a href="https://waloviz.com">official WaloViz website!</a>
 </div>
 
-WaloViz is an [open-source](https://github.com/AlonKellner/waloviz) python package for interactive Jupyter notebook based audio research, it creates an interactive audio player with a spectrogram built-in ([What's a Spectrogram?](#What's-a-Spectrogram?)).
+WaloViz is an [open-source](https://github.com/AlonKellner/waloviz) python package for interactive Jupyter notebook based audio research, it creates an interactive audio player with a spectrogram built-in ([What's a Spectrogram?](#whats-a-spectrogram)).
 
 It works with `wav` files or any other audio format thanks to `torchaudio` and `ffmpeg`, and it is comfortably interactive thanks to the high customizability of the [HoloViz ecosystem](https://holoviz.org/), hence the name - `wav + HoloViz = WaloViz`.
 
@@ -50,7 +49,7 @@ I made WaloViz with three main things in mind:
     For the full interactive example go to <a href="https://waloviz.com">the WaloViz documentation website!</a>
 </div>
 
-When I am doing audio research I constantly need to hear audio files and see their spectrograms ([What's a Spectrogram?](#What's-a-Spectrogram?)), for that there are many good dedicated tools that do just that:
+When I am doing audio research I constantly need to hear audio files and see their spectrograms ([What's a Spectrogram?](#whats-a-spectrogram)), for that there are many good dedicated tools that do just that:
 
 1. [Adobe Audition](https://www.adobe.com/il_en/products/audition.html)
 2. [Audacity](https://www.audacityteam.org/)
@@ -67,7 +66,7 @@ So I did the only sensible thing anyone would do - I created yet another audio p
 
 ## What's a Spectrogram?
 
-Even if you know what Spectrograms are - the "Twinkle" spectrogram example will show you some advanced features you might like to know, or just feel free to [skip ahead](#Advanced-Features) :)
+Even if you know what Spectrograms are - the "Twinkle" spectrogram example will show you some advanced features you might like to know, or just feel free to [skip ahead](#advanced-features) :)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
