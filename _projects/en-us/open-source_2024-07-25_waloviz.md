@@ -11,7 +11,7 @@ category: open-source
 ## TL;DR
 
 {::nomarkdown}
-{% assign jupyter_path = '/waloviz-tldr.ipynb' | prepend: site.active_lang | prepend: 'assets/jupyter/' | relative_url %}
+{% assign jupyter_path = 'assets/jupyter/waloviz/tldr.ipynb' | relative_url %}
 {% jupyter_notebook jupyter_path %}
 {:/nomarkdown}
 
@@ -82,7 +82,7 @@ A Spectrogram is a big word, it literally means "A Picture of a Spectrum", or in
 Let's try to think of in musical terms, each musical note has a base frequency associated with it, meaning that using frequencies is very similar to using musical notes, in that sense a Spectrogram is very similar to a musical sheet!
 
 {::nomarkdown}
-{% assign jupyter_path = '/waloviz-twinkle.ipynb' | prepend: site.active_lang | prepend: 'assets/jupyter/' | relative_url %}
+{% assign jupyter_path = 'assets/jupyter/waloviz/twinkle.ipynb' | relative_url %}
 {% jupyter_notebook jupyter_path %}
 {:/nomarkdown}
 
@@ -109,7 +109,7 @@ The first feature that researchers really like is overlaying curves over the spe
 A very simple example of that would be to overlay the waveform itself or manipulations over it, it can be done in many ways, here is one of them:
 
 {::nomarkdown}
-{% assign jupyter_path = '/waloviz-overlay.ipynb' | prepend: site.active_lang | prepend: 'assets/jupyter/' | relative_url %}
+{% assign jupyter_path = 'assets/jupyter/waloviz/overlay.ipynb' | relative_url %}
 {% jupyter_notebook jupyter_path %}
 {:/nomarkdown}
 
