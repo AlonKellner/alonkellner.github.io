@@ -26,7 +26,7 @@ Try clicking the spectrogram above, it will start playing :)
     </div>
 </div>
 <div class="caption">
-    Take a look at the [official WaloViz website!](https://waloviz.com)
+    Take a look at the <a href="https://waloviz.com">official WaloViz website!</a>
 </div>
 
 WaloViz is an [open-source](https://github.com/AlonKellner/waloviz) python package for interactive Jupyter notebook based audio research, it creates an interactive audio player with a spectrogram built-in ([What's a Spectrogram?](#What's-a-Spectrogram?)).
@@ -47,7 +47,7 @@ I made WaloViz with three main things in mind:
     </div>
 </div>
 <div class="caption">
-    For the full interactive example go to [the WaloViz documentation website!](https://waloviz.com)
+    For the full interactive example go to <a href="https://waloviz.com">the WaloViz documentation website!</a>
 </div>
 
 When I am doing audio research I constantly need to hear audio files and see their spectrograms ([What's a Spectrogram?](#What's-a-Spectrogram?)), for that there are many good dedicated tools that do just that:
@@ -75,7 +75,7 @@ Even if you know what Spectrograms are - the "Twinkle" spectrogram example will 
     </div>
 </div>
 <div class="caption">
-    Image by Tom Roeland, from [his post "What is a Spectrogram?"](https://tomroelandts.com/articles/what-is-a-spectrogram)
+    Image by Tom Roeland, from his post <a href="https://tomroelandts.com/articles/what-is-a-spectrogram">What is a Spectrogram?</a>
 </div>
 
 A Spectrogram is a big word, it literally means "A Picture of a Spectrum", or in other words it's a visualization of frequencies.
@@ -93,7 +93,7 @@ Let's try to think of in musical terms, each musical note has a base frequency a
     </div>
 </div>
 <div class="caption">
-    A portion of the musical sheet of "Twinkle Twinkle little Star", from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pitch_axis_inversion.png)
+    A portion of the musical sheet of Twinkle Twinkle little Star, from <a href="https://commons.wikimedia.org/wiki/File:Pitch_axis_inversion.png">Wikimedia Commons</a>
 </div>
 
 As you go from left to right you go forward in time, and as you go from bottom to top you go higher in pitch (frequency).
