@@ -104,6 +104,8 @@ In a Spectrogram the background is black, and a bright yellow spot means that fr
 One important difference is that in a Spectrogram the brighter the spot - the louder the sound, and it's a smooth transition from very quiet (dark) to very loud (bright).  
 Another difference is that instead of different kinds of spots, to specify the length of the note the spot is stretched horizontally into a line. The length of the line is the length of the note!
 
+Seeing the frequencies of an audio signal visually is very important, an audio expert can understand all sorts of things just by looking at it, very similar to how a musician can understand a lot from reading a musical sheet.
+
 ## Advanced Features
 
 The first feature that researchers really like is overlaying curves over the spectrogram.  
