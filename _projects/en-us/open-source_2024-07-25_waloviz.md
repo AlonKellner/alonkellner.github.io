@@ -32,11 +32,11 @@ WaloViz is an [open-source](https://github.com/AlonKellner/waloviz) python packa
 
 It works with `wav` files or any other audio format thanks to `torchaudio` and `ffmpeg`, and it is comfortably interactive thanks to the high customizability of the [HoloViz ecosystem](https://holoviz.org/), hence the name - `wav + HoloViz = WaloViz`.
 
-I made WaloViz with three main things in mind:
+I created WaloViz with three main things in mind:
 
 1. **It should be EASY** - starting to use it requires 3 lines of code
 2. **It should be POWERFUL** - there are many advanced features, such as exporting to an HTML file and overlaying custom data
-3. **It should be OPEN** - open-source is the right place for WaloViz to exist, take a look at [our GitHub Repo](https://github.com/AlonKellner/waloviz), and consider giving us a :star2:!
+3. **It should be OPEN** - open-source is the right place for WaloViz to exist, take a look at [our GitHub Repo](https://github.com/AlonKellner/waloviz), and if you like it - consider giving us a :star2: :)
 
 ## Why I started WaloViz
 
@@ -60,14 +60,14 @@ But they all suffer from the same problem - they are desktop tools that need the
 
 Some might say "that's not that big of an issue, just create a file and download it", but that becomes more and more annoying with more elaborate setups which have more audio files, very quickly it becomes a laboursome mess.
 
-I found myself creating all sorts of ragtag visualizations to help me both play the audio and view it's spectrogram, I was shocked when I learned that many of my colleagues did the exact same thing in many different ways and circumstances.
+I found myself creating all sorts of ragtag visualizations to help me both play the audio and view it's spectrogram in my Jupyter notebooks, I was shocked when I learned that many of my colleagues did the exact same thing in many different ways and circumstances.
 
 Things like that drive me nuts!  
 So I did the only sensible thing anyone would do - I created yet another audio player to rule them all :)
 
 ## What's a Spectrogram?
 
-Even if you know what Spectrograms are - the "Twinkle" spectrogram example will show you some advanced features you might like to know, if not - feel free to [skip ahead](#advanced-features) :)
+> Even if you know what Spectrograms are - the "Twinkle" spectrogram example will show you some advanced features you might like to know, if not - feel free to [skip ahead](#advanced-features) :)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -104,7 +104,7 @@ In a Spectrogram the background is black, and a bright yellow spot means that fr
 One important difference is that in a Spectrogram the brighter the spot - the louder the sound, and it's a smooth transition from very quiet (dark) to very loud (bright).  
 Another difference is that instead of different kinds of spots, to specify the length of the note the spot is stretched horizontally into a line. The length of the line is the length of the note!
 
-Seeing the frequencies of an audio signal visually is very important, an audio expert can understand all sorts of things just by looking at it, very similar to how a musician can understand a lot from reading a musical sheet.
+Seeing the frequencies of an audio signal visually is very important, an audio expert can understand all sorts of things just by looking at a spectrogram, very similar to how a musician can understand a lot from reading a musical sheet.
 
 ## Advanced Features
 
@@ -118,10 +118,10 @@ A very simple example of that would be to overlay the waveform itself or manipul
 
 In the above example there are 3 overlaid curves:
 
-1. The `waveform`, it uses a callback to read the waveform and calculate the curve from it
-2. The `envelope`, it also uses a callback, but this time does a calculation over the waveform to create the curve
+1. The `waveform`, it uses a callback to read the waveform and return is as a curve
+2. The `envelope`, it also uses a callback, but this time uses the waveform to calculate the envelope curve
 3. A `random` curve, it is just passed as a precalculated curve to be displayed over the spectrogram
 
 From this simple example you can see how powerful this feature is for visualizing cases like SAD (Speech Activity Detection), Diarization, and many other audio related tasks.
 
-There are many more features, go to the [WaloViz documentation website](https://waloviz.com) to learn more :)
+WaloViz has many more features, go to the [WaloViz documentation website](https://waloviz.com) to learn more :)
