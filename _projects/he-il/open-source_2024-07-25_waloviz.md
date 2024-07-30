@@ -21,7 +21,7 @@ category: open-source
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/waloviz-logo-horizontal.png" title="The WaloViz logo" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/waloviz-logo-horizontal.png" title="הלוגו של WaloViz" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -42,7 +42,7 @@ category: open-source
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/waloviz-logo-spectrogram.png" title="WaloViz recursion!" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/waloviz-logo-spectrogram.png" title="רקורסיית WaloViz!" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -71,7 +71,7 @@ category: open-source
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/spectrogram-tomroelandts.jpg" title="A typical Spectrogram" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/spectrogram-tomroelandts.jpg" title="ספקטרוגרמה טיפוסית" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
