@@ -49,4 +49,4 @@ jobs:
         with:
           fail: true
           # removed md files that include liquid tags
-          args: --user-agent 'curl/7.54' --exclude '(%7B|%7D)' --exclude '\.\.' --exclude-path ORIG-README.md --exclude-path CUSTOMIZE.md --exclude-path _pages/en-us/404.md --exclude-path _pages/he-il/404.md --exclude-path _pages/en-us/blog.md --exclude-path _pages/he-il/blog.md --exclude-path _pages/en-us/about.md --exclude-path _pages/he-il/about.md --verbose --no-progress './**/*.md' './**/*.html'
+          args: --user-agent 'curl/7.54' --exclude '(%7B|%7D)' --exclude 'alonkellner\.github\.io' --exclude-path ORIG-README.md --exclude-path CUSTOMIZE.md --exclude-path _pages/en-us/404.md --exclude-path _pages/he-il/404.md --exclude-path _pages/en-us/blog.md --exclude-path _pages/he-il/blog.md --exclude-path _pages/en-us/about.md --exclude-path _pages/he-il/about.md --verbose --no-progress './**/*.md' './**/*.html'
