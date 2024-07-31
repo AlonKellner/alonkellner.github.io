@@ -24,7 +24,7 @@ thumbnail: /assets/img/waloviz-logo-vertical-2-3-ratio.png
 
 On every single audio research project I got into I faced the same problem again and again - working with audio in Jupyter notebooks is too difficult!
 
-Specifically, inspecting an audio snippet in depth is a surprisingly difficult task, it requires both listening and viewing something called a spectrogram (see my explanation about [What's a Spectrogram?](../projects/open-source_2024-07-25_waloviz/#whats-a-spectrogram)).  
+Specifically, inspecting an audio snippet in depth is a surprisingly difficult task, it requires both listening and viewing something called a spectrogram (see my explanation about [What's a Spectrogram?](../../../projects/open-source_2024-07-25_waloviz/#whats-a-spectrogram)).  
 That is precisely what I made WaloViz for, working with audio in Jupyter notebooks, like so:
 
 {::nomarkdown}
