@@ -283,8 +283,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["software", "creative", "research", "open-source", "personal"] # these tags will be displayed on the front page of your blog
-display_categories: [] # these categories will be displayed on the front page of your blog
+display_tags: ["software", "research", "open-source", "creative", "ideas"] # these tags will be displayed on the front page of your blog
+display_categories: ["professional", "personal"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

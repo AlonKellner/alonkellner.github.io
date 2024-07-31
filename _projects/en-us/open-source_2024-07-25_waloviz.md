@@ -8,6 +8,8 @@ importance: 1
 category: open-source
 ---
 
+[:globe_with_meridians: WaloViz Website :globe_with_meridians:](https://waloviz.com), [:star: GitHub Repo :star:](https://github.com/AlonKellner/waloviz/), [:arrow_forward: Google Colab Demo :arrow_forward:](https://colab.research.google.com/drive/1euQCxaNlTg0pGvXz6d7RSoDhM3B1k7dy)
+
 ## TL;DR
 
 {::nomarkdown}
@@ -36,7 +38,7 @@ I created WaloViz with three main things in mind:
 
 1. **It should be EASY** - starting to use it requires 3 lines of code
 2. **It should be POWERFUL** - there are many advanced features, such as exporting to an HTML file and overlaying custom data
-3. **It should be OPEN** - open-source is the right place for WaloViz to exist, take a look at [our GitHub Repo](https://github.com/AlonKellner/waloviz), and if you like it - consider giving us a :star2: :)
+3. **It should be OPEN** - open-source is the right place for WaloViz to exist, take a look at [our GitHub Repo](https://github.com/AlonKellner/waloviz), and if you like it - consider giving us a :star2:
 
 ## Why I started WaloViz
 

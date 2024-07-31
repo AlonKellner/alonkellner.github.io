@@ -1,11 +1,12 @@
 ---
 layout: post
-title: My Portfolio starts
-date: 2024-07-30
+title: My Portfolio Starts
+date: 2024-07-30 13:00:00
 description: A Portfolio year, dedicated to achieving successful projects and publications
-tags: portfolio
+tags: ideas
 categories: personal
 thumbnail: /assets/img/plant-a-seed.jpg
+featured: true
 ---
 
 <div class="row">
@@ -28,4 +29,4 @@ The most probable profit is personal growth, but if opportunities will come thro
 
 ## Define "Portfolio"
 
-Well, you're looking at it! This website is my portfolio,-
+Well, you're looking at it! This website is my portfolio,

@@ -8,6 +8,8 @@ importance: 1
 category: open-source
 ---
 
+[:globe_with_meridians: האתר של WaloViz :globe_with_meridians:](https://waloviz.com), [:star: ה-GitHub Repo :star:](https://github.com/AlonKellner/waloviz/), [:arrow_forward: דמו ב-Google Colab :arrow_forward:](https://colab.research.google.com/drive/1euQCxaNlTg0pGvXz6d7RSoDhM3B1k7dy)
+
 ## TL;DR
 
 {::nomarkdown}
@@ -36,7 +38,7 @@ category: open-source
 
 1. היא צריכה להיות **קלה** - נדרשות רק שלוש שורות קוד כדי להתחיל להשתמש
 2. היא צריכה להיות **חזקה** - יש הרבה יכולות מתקדמות, כגון ייצוא קובץ HTML או הצגת נתונים משלכם מעל הספקטרוגרמה
-3. היא צריכה להיות **פתוחה** - קוד-פתוח זו הדרך הנכונה בשביל WaloViz, תעיפו מבט על [ה-GitHub Repo שלנו](https://github.com/AlonKellner/waloviz), ואם אהבתם - תשקלו לתת לנו :star2: :)
+3. היא צריכה להיות **פתוחה** - קוד-פתוח זו הדרך הנכונה בשביל WaloViz, תעיפו מבט על [ה-GitHub Repo שלנו](https://github.com/AlonKellner/waloviz), ואם אהבתם - תשקלו לתת לנו :star2:
 
 ## למה התחלתי את WaloViz
 

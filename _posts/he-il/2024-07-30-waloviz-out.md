@@ -1,12 +1,14 @@
 ---
 layout: post
 title: הוצאתי את WaloViz!
-date: 2024-07-30
+date: 2024-07-30 14:00:00
 description: חבילת הקוד-פתוח החדשה שלי, WaloViz
-tags: waloviz open-source python github
-categories: software research open-source
-thumbnail: /assets/img/waloviz-logo-horizontal.png
+tags: software research open-source
+categories: professional
+thumbnail: /assets/img/waloviz-logo-vertical-2-3-ratio.png
 ---
+
+[:globe_with_meridians: האתר של WaloViz :globe_with_meridians:](https://waloviz.com), [:star: ה-GitHub Repo :star:](https://github.com/AlonKellner/waloviz/), [:arrow_forward: דמו ב-Google Colab :arrow_forward:](https://colab.research.google.com/drive/1euQCxaNlTg0pGvXz6d7RSoDhM3B1k7dy), [\*\*:bust_in_silhouette: דף הפרויקט בפורטפוליו :bust_in_silhouette:](../../../projects/open-source_2024-07-25_waloviz)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -16,12 +18,6 @@ thumbnail: /assets/img/waloviz-logo-horizontal.png
 <div class="caption">
     תעיפו מבט ב<a href="https://waloviz.com">אתר הרשמי של WaloViz!</a>
 </div>
-
-### Quick Links
-
-[האתר של WaloViz :globe_with_meridians:](https://waloviz.com)  
-[ה-Github Repo :octocat:](https://github.com/AlonKellner/waloviz/)
-[דף הפרויקט בפורטפוליו :bust_in_silhouette:](../projects/open-source_2024-07-25_waloviz)
 
 ## שמע + Jupyter == :tired_face:
 
@@ -50,7 +46,7 @@ thumbnail: /assets/img/waloviz-logo-horizontal.png
 </div>
 
 זו הפעם הראשונה שאני הבעלים של פרויקט קוד-פתוח, אני ממש נרגש לבנות את הקהילה.  
-אם אהבתם את WaloViz, תשקלו לתת לנו :star2: ב-[Github Repo שלנו](https://github.com/AlonKellner/waloviz/)!
+אם אהבתם את WaloViz, תשקלו לתת לנו :star2: ב-[GitHub Repo שלנו](https://github.com/AlonKellner/waloviz/)!
 
 אם אתם רוצים לעזור - **WaloViz הוא פרויקט ידידותי למתחילים!**  
 אנחנו מזמינים כל אחד לעזור, ללא קשר לרמת הנסיון בתחום.  

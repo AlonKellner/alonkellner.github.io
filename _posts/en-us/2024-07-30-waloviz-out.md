@@ -1,13 +1,16 @@
 ---
 layout: post
 title: WaloViz is Out!
-date: 2024-07-30
+date: 2024-07-30 14:00:00
 description: My newest open-source project, WaloViz
-tags: waloviz open-source python github
-categories: software research open-source
-thumbnail: /assets/img/waloviz-logo-horizontal.png
+tags: software research open-source
+categories: professional
+thumbnail: /assets/img/waloviz-logo-vertical-2-3-ratio.png
 ---
 
+[:globe_with_meridians: WaloViz Website :globe_with_meridians:](https://waloviz.com), [:star: GitHub Repo :star:](https://github.com/AlonKellner/waloviz/), [:arrow_forward: Google Colab Demo :arrow_forward:](https://colab.research.google.com/drive/1euQCxaNlTg0pGvXz6d7RSoDhM3B1k7dy), [:bust_in_silhouette: Portfolio Project Page :bust_in_silhouette:](../../../projects/open-source_2024-07-25_waloviz)
+
+<br/>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/waloviz-logo-horizontal.png" title="The WaloViz logo" class="img-fluid rounded z-depth-1" %}
@@ -16,12 +19,6 @@ thumbnail: /assets/img/waloviz-logo-horizontal.png
 <div class="caption">
     Take a look at the <a href="https://waloviz.com">official WaloViz website!</a>
 </div>
-
-### Quick Links
-
-[WaloViz Website :globe_with_meridians:](https://waloviz.com)  
-[Github Repo :octocat:](https://github.com/AlonKellner/waloviz/)
-[Portfolio Project Page :bust_in_silhouette:](../projects/open-source_2024-07-25_waloviz)
 
 ## Audio + Jupyter == :tired_face:
 
@@ -38,7 +35,7 @@ That is precisely what I made WaloViz for, working with audio in Jupyter noteboo
 Try clicking the spectrogram above, it will start playing :)  
 To learn more about how to use WaloViz go to the [WaloViz Documentation Website!](https://waloviz.com)
 
-## My first open-source project!
+## My First Open-Source Project!
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -50,15 +47,15 @@ To learn more about how to use WaloViz go to the [WaloViz Documentation Website!
 </div>
 
 WaloViz is the first open-source project that I own, I am really excited to get to build an open-source community.  
-If you like it, consider giving us a :star2: on our [Github Repo](https://github.com/AlonKellner/waloviz/)!
+If you like it, consider giving us a :star2: on our [GitHub Repo](https://github.com/AlonKellner/waloviz/)!
 
 If you want to contribute - **WaloViz is a Beginner Friendly project!**  
 We welcome anyone to contribute, no matter your experience level.  
 Here are three things that make WaloViz great for beginners:
 
 1. **Our codebase is SMALL** - there is not much to learn to start working
-2. **EVERYTHING is documented** - our standard is to document inline each and every single function, method or class
-3. **Everything is AUTOMATED** - what are our code standards? Automated testing, formatting, linting and type-checking will help you with that :)
+2. **Everything is DOCUMENTED** - our standard is to document inline each and every single function, method or class
+3. **Standards are AUTOMATED** - what are our code standards? Automated testing, formatting, linting and type-checking will help you with that :)
 
 Want to give it a go? Start by reading our [README](https://github.com/AlonKellner/waloviz/) and then read our [Contributing Guide](https://github.com/AlonKellner/waloviz/blob/main/CONTRIBUTING.md), you can do it!
 

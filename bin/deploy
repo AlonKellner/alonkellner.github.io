@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Run this script to deploy the app to Github Pages
+# Run this script to deploy the app to GitHub Pages
 
 # Parse cmd arguments
 
