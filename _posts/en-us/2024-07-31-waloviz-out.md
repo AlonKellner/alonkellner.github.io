@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WaloViz is Out!
-date: 2024-07-30 14:00:00
+date: 2024-07-31 15:00:00
 description: My newest open-source project, WaloViz
 tags: software research open-source
 categories: professional
