@@ -6,7 +6,6 @@ description: Deeper thoughts about the portfolio year and its meaning to me
 tags: ideas
 categories: personal
 thumbnail: /assets/img/plant-roots.jpeg
-featured: true
 ---
 
 <div class="row">

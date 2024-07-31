@@ -6,7 +6,6 @@ description: מחשבות עמוקות לגבי הפורטפוליו ומשמע�
 tags: ideas
 categories: personal
 thumbnail: /assets/img/plant-roots.jpeg
-featured: true
 ---
 
 <div class="row">
