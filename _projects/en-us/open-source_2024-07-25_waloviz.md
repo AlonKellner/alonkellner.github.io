@@ -62,7 +62,7 @@ But they all suffer from the same problem - they are desktop tools that need the
 
 Some might say "that's not that big of an issue, just create a file and download it", but that becomes more and more annoying with more elaborate setups which have more audio files, very quickly it becomes a laboursome mess.
 
-I found myself creating all sorts of ragtag visualizations to help me both play the audio and view it's spectrogram in my Jupyter notebooks, I was shocked when I learned that many of my colleagues did the exact same thing in many different ways and circumstances.
+I found myself creating all sorts of ragtag visualizations to help me both play the audio and view its spectrogram in my Jupyter notebooks, I was shocked when I learned that many of my colleagues did the exact same thing in many different ways and circumstances.
 
 Things like that drive me nuts!  
 So I did the only sensible thing anyone would do - I created yet another audio player to rule them all :)
@@ -120,7 +120,7 @@ A very simple example of that would be to overlay the waveform itself or manipul
 
 In the above example there are 3 overlaid curves:
 
-1. The `waveform`, it uses a callback to read the waveform and return is as a curve
+1. The `waveform`, it uses a callback to read the waveform and return it as a curve
 2. The `envelope`, it also uses a callback, but this time uses the waveform to calculate the envelope curve
 3. A `random` curve, it is just passed as a precalculated curve to be displayed over the spectrogram
 

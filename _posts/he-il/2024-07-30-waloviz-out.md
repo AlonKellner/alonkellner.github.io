@@ -8,7 +8,7 @@ categories: professional
 thumbnail: /assets/img/waloviz-logo-vertical-2-3-ratio.png
 ---
 
-[:globe_with_meridians: האתר של WaloViz :globe_with_meridians:](https://waloviz.com), [:star: ה-GitHub Repo :star:](https://github.com/AlonKellner/waloviz/), [:arrow_forward: דמו ב-Google Colab :arrow_forward:](https://colab.research.google.com/drive/1euQCxaNlTg0pGvXz6d7RSoDhM3B1k7dy), [\*\*:bust_in_silhouette: דף הפרויקט בפורטפוליו :bust_in_silhouette:](../../../projects/open-source_2024-07-25_waloviz)
+[:globe_with_meridians: האתר של WaloViz :globe_with_meridians:](https://waloviz.com), [:star: ה-GitHub Repo :star:](https://github.com/AlonKellner/waloviz/), [:arrow_forward: דמו ב-Google Colab :arrow_forward:](https://colab.research.google.com/drive/1euQCxaNlTg0pGvXz6d7RSoDhM3B1k7dy), [:bust_in_silhouette: דף הפרויקט בפורטפוליו :bust_in_silhouette:](../../../projects/open-source_2024-07-25_waloviz)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -31,7 +31,7 @@ thumbnail: /assets/img/waloviz-logo-vertical-2-3-ratio.png
 {% jupyter_notebook jupyter_path %}
 {:/nomarkdown}
 
-נסו ללחוץ על הספקטרוגרמה מעל, המנגינה תתחיל להתנגן :)
+נסו ללחוץ על הספקטרוגרמה מעל, המנגינה תתחיל להתנגן :)  
 כדי ללמוד עוד על איך להשתמש ב-WaloViz, קראו ב[אתר התיעוד של WaloViz!](https://waloviz.com)
 
 ## פרויקט הקוד-פתוח הראשון שלי!

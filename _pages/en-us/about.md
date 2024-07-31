@@ -29,5 +29,5 @@ I am an experienced Software Engineer & Data Scientist, an 8200 alumnus and a co
 
 This is my portfolio, it displays multiple aspects of myself, from a [CV](cv) and [a professional blog](blog), through [publications](publications) and [projects](projects), to [educational content](teaching) and [a creative outlet](drawer).
 
-On the 28th of July 2024 I offically launched this portfolio website and started a "Portfolio Year", where in one year I will try to achieve between 5 and 10 successful projects or publications.  
-**My year ends on the 28th of July 2025**, Wish me luck :)
+On the 31st of July 2024 I offically launched this portfolio website and started a "Portfolio Year", where in one year I will try to achieve between 5 and 10 successful projects or publications.  
+**My year ends on the 31st of July 2025**, Wish me luck :)
