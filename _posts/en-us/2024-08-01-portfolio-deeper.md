@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Deeper into the Portfolio
-date: 2024-07-31 14:00:00
+date: 2024-08-01 14:00:00
 description: Deeper thoughts about the portfolio year and its meaning to me
 tags: ideas
 categories: personal

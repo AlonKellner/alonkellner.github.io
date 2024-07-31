@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Portfolio Year Starts
-date: 2024-07-31 13:00:00
+date: 2024-08-01 13:00:00
 description: A Portfolio year, dedicated to achieving successful projects and publications
 tags: ideas
 categories: personal
@@ -40,7 +40,7 @@ I wrote more about the importance of proof in another post: [Deeper into the Por
 This portfolio is very similar, but I am not a painter that can show her painting, I am an Engineer and a Researcher, so my portfolio will consist of Engineering Projects and Research Papers.
 
 I decided to dedicate at least on whole year to working on a portfolio, I call it My Portfolio Year.  
-My portfolio year starts now - the 31st of july, 2024 - and ends in exactly one year from now - the 31st of july, 2025.
+My portfolio year starts now - the 01st of August, 2024 - and ends in exactly one year from now - the 01st of August, 2025.
 
 I have set myself a goal to achieve until the end of this year:
 

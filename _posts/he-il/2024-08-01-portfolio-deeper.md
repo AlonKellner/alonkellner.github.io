@@ -1,7 +1,7 @@
 ---
 layout: post
 title: עמוק לתוך הפורטפוליו
-date: 2024-07-31 14:00:00
+date: 2024-08-01 14:00:00
 description: מחשבות עמוקות לגבי הפורטפוליו ומשמעותו עבורי
 tags: ideas
 categories: personal
