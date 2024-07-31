@@ -17,7 +17,7 @@ thumbnail: /assets/img/plant-roots.jpeg
     Close Up Photo of a Person Holding Plant and a Pot, from <a href="https://www.pexels.com/photo/close-up-photo-of-a-person-holding-plant-and-a-pot-4751968/">Pexels</a>
 </div>
 
-This post is a deep dive into some of the concepts I introduced in the first post: [My Portfolio Year Starts](../portfolio-start).  
+This post is a deep dive into some of the concepts I introduced in the first post: [My Portfolio Year Starts](../portfolio1-start).  
 Make sure to read it before you start reading this one :)
 
 ## A Philosophy of Personal Growth
