@@ -23,7 +23,7 @@ We all are, all of the time actually, but sometimes we put ourselves in a place 
 That is why I'm doing this, dedicating a whole year of my life to create a portfolio.
 
 Many are surprised at the concept, why skip a year in your life for projects and research?  
-My portfolio year is similar to taking a seminar or working on a thesis, it's not a waste - it's an investment.
+My Portfolio Year is similar to taking a seminar or working on a thesis, it's not a waste - it's an investment.
 
 The most probable profit is personal growth, but if opportunities will come through doing this publicly - that will be a great bonus :)
 
@@ -40,7 +40,7 @@ I wrote more about the importance of proof in another post: [Deeper into the Por
 This portfolio is very similar, but I am not a painter that can show her painting, I am an Engineer and a Researcher, so my portfolio will consist of Engineering Projects and Research Papers.
 
 I decided to dedicate at least on whole year to working on a portfolio, I call it My Portfolio Year.  
-My portfolio year starts now - the 01st of August, 2024 - and ends in exactly one year from now - the 01st of August, 2025.
+My Portfolio Year starts now - the 01st of August, 2024 - and ends in exactly one year from now - the 01st of August, 2025.
 
 I have set myself a goal to achieve until the end of this year:
 
@@ -65,7 +65,7 @@ I cannot reveal all of the details of the 5 projects I have planned just yet, bu
 2. **CHFSto** - Not live yet. An open-source python package that will allow you to use your favorite libraries (`os`, `pathlib`, `shutil`, `requests`, `pandas` and more) with any url scheme (`file`, `http`\\`https` or `s3` and more). More updates soon.
 3. **Number Theory paper** - I proved some nice properties about sets of reciprocal numbers that add up to whole numbers, I will formalize them and publish them in a paper. More details soon.
 4. **Botanical Dataset** - A long story led me to start building an automated pipeline for creating a center aligned images dataset, of three main categories: Eggs, Butterflies and Molluscs.
-5. **E2E Multi-Speaker Identification with Weak labels** - This is a concept which was part of a project I worked on, it proved to be promising, I plan to reproduce the concept on multiple models and datasets to evaluate the effectiveness of the method.
+5. **E2E Multi-Speaker Identification with Weak labels** - This is a concept which was part of a project I worked on, it proved to be promising, I plan to reproduce the concept with multiple models and datasets to evaluate the effectiveness of the method.
 
 These are the projects which I feel confident about, other projects which I plan to try are more risky and less mature, but stay tuned and I might share my thoughts about them along the way :)
 

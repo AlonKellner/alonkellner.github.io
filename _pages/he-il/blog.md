@@ -87,7 +87,7 @@ pagination:
                     {% assign year = post.date | date: "%Y" %}
 
                     <p class="post-meta">
-                      Leitura de {{ read_time }} min &nbsp; &middot; &nbsp;
+                      {{ read_time }} דקות קריאה &nbsp; &middot; &nbsp;
                       <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
                         <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
                     </p>

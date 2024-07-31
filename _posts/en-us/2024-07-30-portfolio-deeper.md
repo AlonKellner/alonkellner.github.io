@@ -44,12 +44,13 @@ There is an old saying by Abraham Lincoln:
 
 In that metaphor, if the tree is my Challenge, the forest is my Environment, a sharpening procedure is a System, the axe is a Tool, and finally my hands and muscles are my Self.
 
-If I were to cut a tree in six hours, I better have already trained my body to be strong enough to swing the axe, if I didn't, even 12 hours of sharpening won't get me anywhere.
+If I were to chop a tree in six hours, I better have already trained my body to be strong enough to swing the axe, if I didn't, even 12 hours of sharpening won't get me anywhere.
 
 So it's like a diamond shaped tower, in the base there is the Self, supported by it are Tools and Systems and on the very top is the Environment.  
 The higher up the tower - the easier to build.
 
-By that logic the most difficult thing to build is the Self. Therefore - personal growth is the first, longest and most difficult step in overcoming the Happiness Challenge.
+By that logic the most difficult thing to build is the Self.  
+Therefore - personal growth is the first, longest and most difficult step in overcoming the Happiness Challenge.
 
 My Portfolio Year is a part of a life long journey to strengthen my Self, specifically focused on my "Creation" happiness pattern.
 
@@ -85,7 +86,7 @@ There are a few good answers to that question:
 3. Look me up (social media, online reputation)
 4. Here's a proof (portfolio, verifiable examples, valuable examples)
 
-Each of these have good and bad examples which I will not get into in this post, but their all important in their own ways.  
+Each of these have good and bad examples which I will not get into in this post, but they're all important in their own ways.  
 So why emphasize the proof?
 
 Well, I believe that a true Professional is obligated to supply all four when asked to, but for some reason in the Technological and Academical industries there is an obvious lack of proof, it exists but its weight is so much smaller than the other 3 that many don't bother with it.
