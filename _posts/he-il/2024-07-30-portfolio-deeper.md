@@ -1,7 +1,7 @@
 ---
 layout: post
 title: עמוק לתוך הפורטפוליו
-date: 2024-08-01 14:00:00
+date: 2024-07-30 13:00:00
 description: מחשבות עמוקות לגבי הפורטפוליו ומשמעותו עבורי
 tags: ideas
 categories: personal
@@ -17,7 +17,7 @@ thumbnail: /assets/img/plant-roots.jpeg
     תצלום של איש/ה מחזיק/ה צמח ועציץ, מ-<a href="https://www.pexels.com/photo/close-up-photo-of-a-person-holding-plant-and-a-pot-4751968/">Pexels</a>
 </div>
 
-בפוסט הזה אני מעמיק בחלק מהקונספטים שהצגתי בפוסט הראשון: [שנת הפורטפוליו שלי מתחילה](../aportfolio-start).  
+בפוסט הזה אני מעמיק בחלק מהקונספטים שהצגתי בפוסט הראשון: [שנת הפורטפוליו שלי מתחילה](../portfolio-start).  
 כדאי לכם לקרוא אותו קודם :)
 
 ## פילוסופיה על התפתחות אישיותית

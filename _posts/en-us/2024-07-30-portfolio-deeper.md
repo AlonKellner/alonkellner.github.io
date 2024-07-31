@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Deeper into the Portfolio
-date: 2024-08-01 14:00:00
+date: 2024-07-30 13:00:00
 description: Deeper thoughts about the portfolio year and its meaning to me
 tags: ideas
 categories: personal
@@ -17,7 +17,7 @@ thumbnail: /assets/img/plant-roots.jpeg
     Close Up Photo of a Person Holding Plant and a Pot, from <a href="https://www.pexels.com/photo/close-up-photo-of-a-person-holding-plant-and-a-pot-4751968/">Pexels</a>
 </div>
 
-This post is a deep dive into some of the concepts I introduced in the first post: [My Portfolio Year Starts](../aportfolio-start).  
+This post is a deep dive into some of the concepts I introduced in the first post: [My Portfolio Year Starts](../portfolio-start).  
 Make sure to read it before you start reading this one :)
 
 ## A Philosophy of Personal Growth

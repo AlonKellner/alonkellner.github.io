@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Portfolio Year Starts
-date: 2024-08-01 13:00:00
+date: 2024-07-29 13:00:00
 description: A Portfolio year, dedicated to achieving successful projects and publications
 tags: ideas
 categories: personal
@@ -27,7 +27,7 @@ My portfolio year is similar to taking a seminar or working on a thesis, it's no
 
 The most probable profit is personal growth, but if opportunities will come through doing this publicly - that will be a great bonus :)
 
-I wrote more thoughts about growth in another post: [Deeper into the Portfolio](../bportfolio-deeper#a-philosophy-of-personal-growth).
+I wrote more thoughts about growth in another post: [Deeper into the Portfolio](../portfolio-deeper#a-philosophy-of-personal-growth).
 
 ## Define "Portfolio"
 
@@ -35,7 +35,7 @@ Well, you're looking at it! This website is my portfolio, or at least the beginn
 
 Most people might know portfolios as a concept from the entertainment or the arts and crafts industries, when you go to an interview or an audition your portfolio comes along your resume, if a resume is a description of your skills - a portfolio is a **proof** of them.
 
-I wrote more about the importance of proof in another post: [Deeper into the Portfolio](../bportfolio-deeper#the-professionals-obligation-of-proof).
+I wrote more about the importance of proof in another post: [Deeper into the Portfolio](../portfolio-deeper#the-professionals-obligation-of-proof).
 
 This portfolio is very similar, but I am not a painter that can show her painting, I am an Engineer and a Researcher, so my portfolio will consist of Engineering Projects and Research Papers.
 
@@ -52,7 +52,7 @@ Where "Successful" means 3 things:
 2. It was a **collaboration**
 3. It received **community recognition**
 
-I elaborate about these criteria in another post: [Deeper into the Portfolio](../bportfolio-deeper#my-success-criteria).
+I elaborate about these criteria in another post: [Deeper into the Portfolio](../portfolio-deeper#my-success-criteria).
 
 ## So, What's the Plan?
 
