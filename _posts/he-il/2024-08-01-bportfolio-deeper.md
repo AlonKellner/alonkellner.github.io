@@ -17,7 +17,7 @@ thumbnail: /assets/img/plant-roots.jpeg
     תצלום של איש/ה מחזיק/ה צמח ועציץ, מ-<a href="https://www.pexels.com/photo/close-up-photo-of-a-person-holding-plant-and-a-pot-4751968/">Pexels</a>
 </div>
 
-בפוסט הזה אני מעמיק בחלק מהקונספטים שהצגתי בפוסט הראשון: [שנת הפורטפוליו שלי מתחילה](../portfolio1-start).  
+בפוסט הזה אני מעמיק בחלק מהקונספטים שהצגתי בפוסט הראשון: [שנת הפורטפוליו שלי מתחילה](../aportfolio-start).  
 כדאי לכם לקרוא אותו קודם :)
 
 ## פילוסופיה על התפתחות אישיותית
