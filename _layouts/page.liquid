@@ -1,10 +1,16 @@
 ---
 layout: default
 ---
+{% capture actual_title -%}
+  {{ page.title }}
+{%- endcapture %}
+
 <div class="post">
   {% capture page_header_liquid_style %}{% if page contains 'page_header_liquid_style' %}{{ page.page_header_liquid_style }}{% elsif site.data[site.active_lang].config contains 'page_header_liquid_style' %}{{ site.data[site.active_lang].config.page_header_liquid_style }}{% endif %}{% endcapture %}
   <header class="post-header" {{ page_header_liquid_style }}>
-    <h1 class="post-title">{{ page.title }}</h1>
+    <h1 class="post-title" id="{{ actual_title | slugify }}">
+      {{ actual_title }}
+    </h1>
     <p class="post-description">{{ page.description }}</p>
   </header>
 

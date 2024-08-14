@@ -31,6 +31,7 @@
         "ms-toolsai.jupyter-renderers",
         "ms-toolsai.vscode-jupyter-cell-tags",
         "streetsidesoftware.code-spell-checker",
+        "streetsidesoftware.code-spell-checker-hebrew",
         "ms-azuretools.vscode-docker",
         "github.vscode-github-actions"
       ],
