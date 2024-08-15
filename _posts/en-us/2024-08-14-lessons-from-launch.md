@@ -43,26 +43,26 @@ Three in particular:
 Following open-source principals, read the [opensource.guide](https://opensource.guide/), I learned a lot from it.  
 I also invested a lot of time in integrating automation and development tools to make it easy for the casual beginner contributor:
 
-1. [**Github Actions**](https://docs.github.com/en/actions) - A versatile CI\CD solution with a huge community, for automated CI\CD pipelines, WaloViz uses it to automate docs creation, package publishing, CI validations etc.
-2. [**VSCode Dev Containers**](https://code.visualstudio.com/docs/devcontainers/containers) - A Docker based local development environment, for easy on-boarding and development setup, you literally just open the repo and it does all of the rest for you.
-3. [**pre-commit**](https://pre-commit.com/) - A framework for managing pre-commit hooks, it runs Pyright, Ruff, Prettier and more automatic validations and fixes over the entire codebase on every single commit, as well as on every push with Github Actions.
-4. [**Pyright**](https://microsoft.github.io/pyright/#/) - Python Static Typing, It uncovers tons of potential bugs, worth the effort.
-5. [**Ruff**](https://docs.astral.sh/ruff/) - Python Formatting & Linting, it is fast and furious, your code will look and feel much better.
-6. [**Prettier**](https://prettier.io/docs/en/) - Markdown, YAML and JSON Formatting, things are just prettier with it :)
+1. [Github Actions](https://docs.github.com/en/actions) - A versatile CI\CD solution with a huge community, for automated CI\CD pipelines, WaloViz uses it to automate docs creation, package publishing, CI validations etc.
+2. [VSCode Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers) - A Docker based local development environment, for easy on-boarding and development setup, you literally just open the repo and it does all of the rest for you.
+3. [pre-commit](https://pre-commit.com/) - A framework for managing pre-commit hooks, it runs Pyright, Ruff, Prettier and more automatic validations and fixes over the entire codebase on every single commit, as well as on every push with Github Actions.
+4. [Pyright](https://microsoft.github.io/pyright/#/) - Python Static Typing, It uncovers tons of potential bugs, worth the effort.
+5. [Ruff](https://docs.astral.sh/ruff/) - Python Formatting & Linting, it is fast and furious, your code will look and feel much better.
+6. [Prettier](https://prettier.io/docs/en/) - Markdown, YAML and JSON Formatting, things are just prettier with it :)
 
 Soon I'll create a Github Template for a modern open-source python package with all of these included, I'll make a post about it so stay tuned!
 
 ### Good Docs
 
 I knew (and hoped) that WaloViz was going to be associated with the [HoloViz ecosystem](https://holoviz.org/), one of the hallmarks of every single HoloViz project is great interactive documentation.  
-In order to have the same look and feel I went for using [**NBSite**](https://nbsite.holoviz.org/), which is HoloViz's docs framework.
+In order to have the same look and feel I went for using [NBSite](https://nbsite.holoviz.org/), which is HoloViz's docs framework.
 
 **I do not recommend using NBSite.**  
-NBSite is based on [**Sphinx**](https://www.sphinx-doc.org/en/master/), and if you are not going for being a HoloViz clone, you can just use Sphinx directly, it's even more customizable.
+NBSite is based on [Sphinx](https://www.sphinx-doc.org/en/master/), and if you are not going for being a HoloViz clone, you can just use Sphinx directly, it's even more customizable.
 
 Nevertheless, NBSite did come with handy Sphinx extensions and features out of the box, such as seamlessly embedding interactive notebooks outputs in you docs, like on the very start of the [Introduction Page of WaloViz](https://waloviz.com).
 
-Also, I invested in a lot in comprehensive inline documentation which got automatically converted into the [API Reference Manual](https://waloviz.com/en/stable/reference-manual/index.html), it's good both for users that need to dive-in, and for beginner contributors that are just starting to dip their toes.
+Also, I invested a lot in comprehensive inline documentation which got automatically converted into the [API Reference Manual](https://waloviz.com/en/stable/reference-manual/index.html), it's good both for users that need to dive-in, and for beginner contributors that are just starting to dip their toes.
 
 The docs of WaloViz got tons of positive feedback, but I'm getting ahead of myself :)
 
@@ -85,6 +85,8 @@ Attention is like money, once you have some of it - it can make you more.
 To get to your critical mass of likes or whatever get you friends and colleagues involved, it works :)
 
 In my case the [MDLI community](https://www.facebook.com/groups/MDLI1/) was my top target mainstream, it's an Israeli Deep-Learning community, success there meant a lot for WaloViz. My friends got me to 30 likes, eventually overall I got 80 likes. CRITICAL MASS.
+
+In retrospect I should have invested more in international mainstream communities, more on that later.
 
 **Expert Communities**  
 These are not what you think, it's not that real good group that has very high quality posts, or the super niche group with real industry experts.  
@@ -208,7 +210,7 @@ I replied with my own repost and I featured Panel this time:
 As you can see none of these got many likes, so why am I getting all excited about them?
 
 Well, two main reasons, firstly it's not a series of posts, it's the beginning of a collaboration, a sign of good faith between me and the Panel community leaders, on my next big announcement they might do it again.  
-Secondly, this is the first international community the WaloViz got exposed to, this is great, since I did not put a lot of focus on international communities, although in retrospect I should have.
+Secondly, this is the first international community that WaloViz got exposed to, this is great, since I did not put a lot of focus on international communities, although in retrospect I should have.
 
 This interaction gave WaloViz a boost, diversified my audience, started a collaboration and warmed my heart, thanks Panel!
 

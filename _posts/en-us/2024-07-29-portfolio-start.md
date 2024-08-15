@@ -61,7 +61,7 @@ If I'll have any spare time - I will try to work on some backup projects, in cas
 
 I cannot reveal all of the details of the 5 projects I have planned just yet, but here is a short description of each one of them:
 
-1. [**WaloViz**](https://waloviz.com) - An open-source python package of a Jupyter notebook audio player with a spectrogram built-in. **WaloViz is out NOW!** Read [my blog post about it](../waloviz-out) :)
+1. [WaloViz](https://waloviz.com) - An open-source python package of a Jupyter notebook audio player with a spectrogram built-in. **WaloViz is out NOW!** Read [my blog post about it](../waloviz-out) :)
 2. **CHFSto** - Not live yet. An open-source python package that will allow you to use your favorite libraries (`os`, `pathlib`, `shutil`, `requests`, `pandas` and more) with any url scheme (`file`, `http`\\`https` or `s3` and more). More updates soon.
 3. **Number Theory paper** - I proved some nice properties about sets of reciprocal numbers that add up to whole numbers, I will formalize them and publish them in a paper. More details soon.
 4. **Botanical Dataset** - A long story led me to start building an automated pipeline for creating a center aligned images dataset, of three main categories: Eggs, Butterflies and Molluscs.
