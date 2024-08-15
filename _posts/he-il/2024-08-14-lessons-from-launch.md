@@ -24,10 +24,11 @@ Exactly two weeks ago I launched my first open-source project, WaloViz.
 
 WOW.
 
-Launching an open source is a journey, I just started mine and I'm already blown away by what happened, and what I learned and am learning along the way.  
-If you don't know what's WaloViz, read [the WaloViz Project Page](../../../projects/open-source_2024-07-25_waloviz) or [the WaloViz Launch blog post](../portfolio-start).
+Launching an open source is a journey, I just started mine and I'm already blown away by what happened, and what I learned and am learning along the way.
 
 But that's where I am now, the present day, I should start from the beginning.
+
+> If you don't know what's WaloViz, read [the WaloViz Project Page](../../../projects/open-source_2024-07-25_waloviz) or [the WaloViz Launch blog post](../portfolio-start).
 
 ## Preparations
 
@@ -44,10 +45,12 @@ I also invested a lot of time in integrating automation and development tools to
 
 1. [**Github Actions**](https://docs.github.com/en/actions) - A versatile CI\CD solution with a huge community, for automated CI\CD pipelines, WaloViz uses it to automate docs creation, package publishing, CI validations etc.
 2. [**VSCode Dev Containers**](https://code.visualstudio.com/docs/devcontainers/containers) - A Docker based local development environment, for easy on-boarding and development setup, you literally just open the repo and it does all of the rest for you.
-3. [**pre-commit**](https://pre-commit.com/) - A framework for managing pre-commit hooks, it runs Pyright, Ruff, Prettier and more automatic validations and fixes over the entire code base on every single commit, as well as on every push with Github Actions.
+3. [**pre-commit**](https://pre-commit.com/) - A framework for managing pre-commit hooks, it runs Pyright, Ruff, Prettier and more automatic validations and fixes over the entire codebase on every single commit, as well as on every push with Github Actions.
 4. [**Pyright**](https://microsoft.github.io/pyright/#/) - Python Static Typing, It uncovers tons of potential bugs, worth the effort.
 5. [**Ruff**](https://docs.astral.sh/ruff/) - Python Formatting & Linting, it is fast and furious, your code will look and feel much better.
 6. [**Prettier**](https://prettier.io/docs/en/) - Markdown, YAML and JSON Formatting, things are just prettier with it :)
+
+Soon I'll create a Github Template for a modern open-source python package with all of these included, I'll make a post about it so stay tuned!
 
 ### Good Docs
 
@@ -59,7 +62,7 @@ NBSite is based on [**Sphinx**](https://www.sphinx-doc.org/en/master/), and if y
 
 Nevertheless, NBSite did come with handy Sphinx extensions and features out of the box, such as seamlessly embedding interactive notebooks outputs in you docs, like on the very start of the [Introduction Page of WaloViz](https://waloviz.com).
 
-Also, I invested in a lot of inline documentation which got automatically converted into the [API Reference Manual](https://waloviz.com/en/stable/reference-manual/index.html), it's good both for users that need to dive-in, and for beginner contributors that are just starting to dip their toes.
+Also, I invested in a lot in comprehensive inline documentation which got automatically converted into the [API Reference Manual](https://waloviz.com/en/stable/reference-manual/index.html), it's good both for users that need to dive-in, and for beginner contributors that are just starting to dip their toes.
 
 The docs of WaloViz got tons of positive feedback, but I'm getting ahead of myself :)
 
@@ -75,7 +78,7 @@ Still, these might give you an idea as to what are good starting points and patt
 I really recommend asking them to support your Mainstream Communities posts, these are the real important ones.
 
 **Mainstream Communities**  
-X tweet, LinkedIn post, Specific Facebook group, these will get you exposure to the crowd, people you don't know, your first real users. I has a list of 3 mainstream whatsapp groups, 2 facebook groups and 1 discord channel.
+X tweet, LinkedIn post, Specific Facebook group, these will get you exposure to the crowd, people you don't know, your first real users. I had a list of 3 mainstream whatsapp groups, 2 facebook groups and 1 discord channel.
 
 There is only one problem, to get any attention - you need a CRITICAL MASS of initial attention.  
 Attention is like money, once you have some of it - it can make you more.  
@@ -87,7 +90,7 @@ In my case the [MDLI community](https://www.facebook.com/groups/MDLI1/) was my t
 These are not what you think, it's not that real good group that has very high quality posts, or the super niche group with real industry experts.  
 No, those are just smaller Mainstream Communities.
 
-Expert Communities are not those with Domain Experts - but with Open-Source Experts.
+Expert Communities are not those with Domain Experts - but those with Open-Source Experts.
 
 Find those that can relate to you, those that know what it's like to be a new open-source because they've been there.
 
@@ -147,7 +150,7 @@ Obviously the post is in Hebrew because it's an Israeli community, but it pretty
 >
 > It's open-source as well, so do a Mitzvah and give a tiny star on GitHub ;)
 
-Those 80 likes and 20 comments were really nice and got WaloViz a lot of traction, and as I said my friends an colleagues did they're part wonderfully, thanks guys :)
+Those 80 likes and 20 comments were really nice and got WaloViz a lot of traction, many praised the quality of the docs, and as I said my friends an colleagues did they're part wonderfully, thanks guys :)
 
 ### The Panel Discord channel
 
@@ -162,7 +165,7 @@ Honestly, at first I didn't expect much from this community, it's a small channe
     See <a href="https://discordapp.com/channels/1075331058024861767/1088148883655364698/1268494576851746826">the message on the Panel discord</a>
 </div>
 
-But a few of their community leaders started engaging with me, some of them just got interested and started digging through my codebase to understand how it works, some opened PRs to make WaloViz better, and some... well, some were kind enough to help spread the word :)
+A few of their community leaders started engaging with me, some of them just got interested and started digging through my codebase to understand how it works, some opened PRs to make WaloViz better, and some... well, some were kind enough to help spread the word :)
 
 ### Panel - Spreading the Word
 
@@ -202,7 +205,7 @@ I replied with my own repost and I featured Panel this time:
     See <a href="https://www.linkedin.com/posts/alonkellner_audio-dataviz-datascience-activity-7225925608675921920-FExs?utm_source=share&utm_medium=member_desktop">the original post on LinkedIn</a>
 </div>
 
-As you can see none of these got many likes, so why am getting all excited about them?
+As you can see none of these got many likes, so why am I getting all excited about them?
 
 Well, two main reasons, firstly it's not a series of posts, it's the beginning of a collaboration, a sign of good faith between me and the Panel community leaders, on my next big announcement they might do it again.  
 Secondly, this is the first international community the WaloViz got exposed to, this is great, since I did not put a lot of focus on international communities, although in retrospect I should have.
