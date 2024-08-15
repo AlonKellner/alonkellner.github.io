@@ -3,7 +3,7 @@ page_id: projects
 layout: page
 title: פרויקטים
 permalink: /projects/
-description: הפרויקטים שלי, בדרך כלל טכנולוגיים ונלווה אליהם קוד פתוח ב-GitHub Repository.
+description: הפרויקטים שלי, בדרך כלל טכנולוגיים ונלווה אליהם קוד-פתוח ב-GitHub Repository.
 nav: true
 nav_order: 3
 display_categories: [open-source]

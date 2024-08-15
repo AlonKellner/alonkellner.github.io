@@ -128,7 +128,7 @@ The aftermath resulted in an incredible spike of interest on the 1st of August, 
     Generated with <a href="https://www.cloudflare.com/">CloudFlare</a> for <a href="https://waloviz.com">waloviz.com</a>
 </div>
 
-And on [the top of this post](#lessons-from-launching-an-open-source) you can see the incredible increase in stars in [the WaloViz Github Repo](https://github.com/AlonKellner/waloviz/).
+And on [the top of this very blog post](#lessons-from-launching-an-open-source) you can see the incredible increase in stars in [the WaloViz Github Repo](https://github.com/AlonKellner/waloviz/).
 
 Unfortunately the hype ends abruptly, the initial spike created very little lasting interest.  
 I did not achieve true CRITICAL MASS for WaloViz, where users just find it wherever they are without active intervention.
