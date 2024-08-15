@@ -1,7 +1,7 @@
 ---
 layout: post
 title: תובנות מהשקת קוד-פתוח
-date: 2024-08-15 13:00:00
+date: 2024-08-14 13:00:00
 description: למדתי המון מלהשיק את WaloViz, הפוסט הזה עוסק בחוויה שלי, מסקנותיי ותוכניותיי.
 tags: software research open-source
 categories: professional
@@ -19,6 +19,10 @@ thumbnail: /assets/img/waloviz-star-history-2024-08-14.svg
 <div class="caption">
     See our <a href="https://star-history.com/#AlonKellner/waloviz&Date">current Star History!</a>
 </div>
+
+Exactly two weeks ago I launched my first open-source project, WaloViz.
+
+WOW.
 
 Launching an open source is a journey, I just started mine and I'm already blown away by what happened, and what I learned and am learning along the way.  
 If you don't know what's WaloViz, read [the WaloViz Project Page](../../../projects/open-source_2024-07-25_waloviz) or [the WaloViz Launch blog post](../portfolio-start).
