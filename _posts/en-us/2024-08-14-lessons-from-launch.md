@@ -22,30 +22,32 @@ thumbnail: /assets/img/waloviz-star-history-2024-08-14.svg
 
 Exactly two weeks ago I launched my first open-source project, WaloViz.
 
-WOW.
+**WOW**.
 
-Launching an open source is a journey, I just started mine and I'm already blown away by what happened, and what I learned and am learning along the way.
+Launching an open-source is a journey, I just started mine and I'm already blown away by what happened, and what I learned and am learning along the way.
 
 But that's where I am now, the present day, I should start from the beginning.
 
-> If you don't know what's WaloViz, read [the WaloViz Project Page](../../../projects/open-source_2024-07-25_waloviz) or [the WaloViz Launch blog post](../portfolio-start).
+In this post I'll share with you my process, if you're planning on starting or launching an open-source project - this is the post for you :)
+
+> If you don't know what's WaloViz, read [the WaloViz Project Page](../../../projects/open-source_2024-07-25_waloviz) or [the WaloViz Launch blog post](../waloviz-out).
 
 ## Preparations
 
-WaloViz is the successor of the earlier version called WaViz, it wasn't open-source, just an internal tool that I knew could be useful for more people.  
-When I started working on WaloViz I already knew what features are needed and what technical challenges lie ahead, so development was easy.
+WaloViz is the successor of the earlier version called WaViz, it wasn't open-source, just an internal tool that I knew could be useful for other people.  
+When I started working on WaloViz I already knew what features are needed and what technical challenges lie ahead, so development went smoothly.
 
 Still, I worked hard on other more crucial things.  
 Three in particular:
 
 ### Open-Sourcability
 
-Following open-source principals, read the [opensource.guide](https://opensource.guide/), I learned a lot from it.  
-I also invested a lot of time in integrating automation and development tools to make it easy for the casual beginner contributor:
+I tried following open-source principles, read the [opensource.guide](https://opensource.guide/), I learned a lot from it.  
+I also invested a lot of time in integrating automation and development tools to make it easy for the casual beginner contributor to join in:
 
 1. [Github Actions](https://docs.github.com/en/actions) - A versatile CI\CD solution with a huge community, for automated CI\CD pipelines, WaloViz uses it to automate docs creation, package publishing, CI validations etc.
 2. [VSCode Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers) - A Docker based local development environment, for easy on-boarding and development setup, you literally just open the repo and it does all of the rest for you.
-3. [pre-commit](https://pre-commit.com/) - A framework for managing pre-commit hooks, it runs Pyright, Ruff, Prettier and more automatic validations and fixes over the entire codebase on every single commit, as well as on every push with Github Actions.
+3. [pre-commit](https://pre-commit.com/) - A framework for managing pre-commit hooks, it integrates Pyright, Ruff, Prettier and more automatic validations and fixes, and applies them over the entire codebase on every single commit, as well as on every push with Github Actions.
 4. [Pyright](https://microsoft.github.io/pyright/#/) - Python Static Typing, It uncovers tons of potential bugs, worth the effort.
 5. [Ruff](https://docs.astral.sh/ruff/) - Python Formatting & Linting, it is fast and furious, your code will look and feel much better.
 6. [Prettier](https://prettier.io/docs/en/) - Markdown, YAML and JSON Formatting, things are just prettier with it :)
@@ -60,7 +62,7 @@ In order to have the same look and feel I went for using [NBSite](https://nbsite
 **I do not recommend using NBSite.**  
 NBSite is based on [Sphinx](https://www.sphinx-doc.org/en/master/), and if you are not going for being a HoloViz clone, you can just use Sphinx directly, it's even more customizable.
 
-Nevertheless, NBSite did come with handy Sphinx extensions and features out of the box, such as seamlessly embedding interactive notebooks outputs in you docs, like on the very start of the [Introduction Page of WaloViz](https://waloviz.com).
+Nevertheless, NBSite did come with handy Sphinx extensions and features out-of-the-box, such as seamlessly embedding interactive notebooks outputs in your docs, like on the very start of the [Introduction Page of WaloViz](https://waloviz.com).
 
 Also, I invested a lot in comprehensive inline documentation which got automatically converted into the [API Reference Manual](https://waloviz.com/en/stable/reference-manual/index.html), it's good both for users that need to dive-in, and for beginner contributors that are just starting to dip their toes.
 
@@ -73,7 +75,8 @@ Still, these might give you an idea as to what are good starting points and patt
 
 **Personal Communities**  
  Personal Facebook post, Whatsapp groups, DMs, these are the ones which your friends and colleagues will see.  
- I had a list of about 15 DMs for specific people, 3 relevant whatsapp groups of friends, and 1 personal post on Facebook. Your friends and colleagues are important, it might seem superficial to ask for help from a captive audience but that's how you're gonna get traction.
+ I had a list of about 15 DMs for specific people, 3 relevant whatsapp groups of friends, and 1 personal post on Facebook.  
+ Your friends and colleagues are important, it might seem superficial to ask for help from a captive audience but that's how you're gonna get traction.
 
 I really recommend asking them to support your Mainstream Communities posts, these are the real important ones.
 
@@ -84,12 +87,13 @@ There is only one problem, to get any attention - you need a CRITICAL MASS of in
 Attention is like money, once you have some of it - it can make you more.  
 To get to your critical mass of likes or whatever get you friends and colleagues involved, it works :)
 
-In my case the [MDLI community](https://www.facebook.com/groups/MDLI1/) was my top target mainstream, it's an Israeli Deep-Learning community, success there meant a lot for WaloViz. My friends got me to 30 likes, eventually overall I got 80 likes. CRITICAL MASS.
+In my case the [MDLI community](https://www.facebook.com/groups/MDLI1/) was my top target mainstream, it's an Israeli Deep-Learning community, success there meant a lot for WaloViz.  
+My friends got me to 30 likes, eventually overall I got 80 likes. CRITICAL MASS.
 
 In retrospect I should have invested more in international mainstream communities, more on that later.
 
 **Expert Communities**  
-These are not what you think, it's not that real good group that has very high quality posts, or the super niche group with real industry experts.  
+These are not what you think, it's not that real good group that has very high quality posts, or that super niche group with real industry experts.  
 No, those are just smaller Mainstream Communities.
 
 Expert Communities are not those with Domain Experts - but those with Open-Source Experts.
@@ -129,7 +133,7 @@ And on [the top of this post](#lessons-from-launching-an-open-source) you can se
 Unfortunately the hype ends abruptly, the initial spike created very little lasting interest.  
 I did not achieve true CRITICAL MASS for WaloViz, where users just find it wherever they are without active intervention.
 
-But that is for later, now let's go over some of of my favorite posts and reposts that got WaloViz to reach those 50 Github stars.
+But that is for later, now let's go over some of my favorite posts and reposts that got WaloViz to reach 50 Github stars.
 
 ### MDLI
 
@@ -146,7 +150,7 @@ As I said, MDLI was my top priority Mainstream Community, here's the post itself
 
 Obviously the post is in Hebrew because it's an Israeli community, but it pretty much translates to:
 
-> To all Speech folks - For the longest time I needed a good visualization library with interactive spectrograms in notebooks, I got tired and made one!
+> To all Speech folks - For the longest time I needed a good visualization library with interactive spectrograms in notebooks, I got frustrated and made one!
 >
 > You're more than welcome to try it or pass it on to whoever you think can use it.
 >

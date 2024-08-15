@@ -8,228 +8,224 @@ categories: professional
 thumbnail: /assets/img/waloviz-star-history-2024-08-14.svg
 ---
 
-[:globe_with_meridians: WaloViz Website :globe_with_meridians:](https://waloviz.com), [:star: GitHub Repo :star:](https://github.com/AlonKellner/waloviz/), [:arrow_forward: Google Colab Demo :arrow_forward:](https://colab.research.google.com/drive/1euQCxaNlTg0pGvXz6d7RSoDhM3B1k7dy), [:bust_in_silhouette: Portfolio Project Page :bust_in_silhouette:](../../../projects/open-source_2024-07-25_waloviz)
+[:globe_with_meridians: האתר של WaloViz :globe_with_meridians:](https://waloviz.com), [:star: ה-GitHub Repo :star:](https://github.com/AlonKellner/waloviz/), [:arrow_forward: דמו ב-Google Colab :arrow_forward:](https://colab.research.google.com/drive/1euQCxaNlTg0pGvXz6d7RSoDhM3B1k7dy), [:bust_in_silhouette: דף הפרויקט בפורטפוליו :bust_in_silhouette:](../../../projects/open-source_2024-07-25_waloviz)
 
 <br/>
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/waloviz-star-history-2024-08-14.svg" title="WaloViz star history, 14.08.2024" class="img-fluid rounded z-depth-1" %}
-    </div>
+ <div class="col-sm mt-3 mt-md-0">
+ {% include figure.liquid loading="eager" path="assets/img/waloviz-star-history-2024-08-14.svg" title="היסטוריית הכוכבים של WaloViz, 14.08.2024" class="img-fluid rounded z-depth-1" %}
+ </div>
 </div>
 <div class="caption">
-    See our <a href="https://star-history.com/#AlonKellner/waloviz&Date">current Star History!</a>
+ תראו את <a href="https://star-history.com/#AlonKellner/waloviz&Date">היסטוריית הכוכבים העדכנית שלנו!</a>
 </div>
 
-Exactly two weeks ago I launched my first open-source project, WaloViz.
+לפני שבועיים בדיוק השקתי את פרויקט הקוד הפתוח הראשון שלי, WaloViz.
 
-WOW.
+**וואו**.
 
-Launching an open source is a journey, I just started mine and I'm already blown away by what happened, and what I learned and am learning along the way.
+השקת קוד-פתוח היא מסע, רק התחלתי את שלי ואני כבר המום ממה שקרה, מה שלמדתי ומה שאני עוד לומד בדרך.
 
-But that's where I am now, the present day, I should start from the beginning.
+אבל זה המקום שבו אני נמצא עכשיו, היום, עדיף שאתחיל בהתחלה.
 
-> If you don't know what's WaloViz, read [the WaloViz Project Page](../../../projects/open-source_2024-07-25_waloviz) or [the WaloViz Launch blog post](../portfolio-start).
+בפוסט הזה אשתף אתכם בתהליך שעברתי, אם אתם מתכננים להקים או להשיק פרויקט קוד-פתוח - זה הפוסט בשבילכם :)
 
-## Preparations
+> אם אתם לא יודעים מה זה WaloViz, קראו את [דף הפרויקט של WaloViz](../../../projects/open-source_2024-07-25_waloviz) או את [הבלוג פוסט של השקת WaloViz](../waloviz-out).
 
-WaloViz is the successor of the earlier version called WaViz, it wasn't open-source, just an internal tool that I knew could be useful for more people.  
-When I started working on WaloViz I already knew what features are needed and what technical challenges lie ahead, so development was easy.
+## הכנות
 
-Still, I worked hard on other more crucial things.  
-Three in particular:
+WaloViz היא היורשת של הגרסה המקורית שנקראה WaViz, זה לא היה קוד-פתוח, רק כלי פנימי שידעתי שיכול להיות שימושי עבור אנשים נוספים.  
+כשהתחלתי לעבוד על WaloViz כבר ידעתי אילו פיטצ'רים נחוצים ואילו אתגרים טכניים עומדים לפני, כך שהפיתוח התקדם חלק.
 
-### Open-Sourcability
+ובכל זאת, עבדתי קשה על דברים אחרים וקריטיים יותר.  
+שלושה במיוחד:
 
-Following open-source principals, read the [opensource.guide](https://opensource.guide/), I learned a lot from it.  
-I also invested a lot of time in integrating automation and development tools to make it easy for the casual beginner contributor:
+### "קוד-פתוח"יות
 
-1. [Github Actions](https://docs.github.com/en/actions) - A versatile CI\CD solution with a huge community, for automated CI\CD pipelines, WaloViz uses it to automate docs creation, package publishing, CI validations etc.
-2. [VSCode Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers) - A Docker based local development environment, for easy on-boarding and development setup, you literally just open the repo and it does all of the rest for you.
-3. [pre-commit](https://pre-commit.com/) - A framework for managing pre-commit hooks, it runs Pyright, Ruff, Prettier and more automatic validations and fixes over the entire codebase on every single commit, as well as on every push with Github Actions.
-4. [Pyright](https://microsoft.github.io/pyright/#/) - Python Static Typing, It uncovers tons of potential bugs, worth the effort.
-5. [Ruff](https://docs.astral.sh/ruff/) - Python Formatting & Linting, it is fast and furious, your code will look and feel much better.
-6. [Prettier](https://prettier.io/docs/en/) - Markdown, YAML and JSON Formatting, things are just prettier with it :)
+ניסיתי לעקוב אחרי עקרונות קוד-פתוח, קראו את [opensource.guide](https://opensource.guide/), למדתי ממנו הרבה.
+כמו כן, השקעתי זמן רב בשילוב כלי אוטומציה ופיתוח כדי להקל על ה-contributor המתחיל והמזדמן להצטרף:
 
-Soon I'll create a Github Template for a modern open-source python package with all of these included, I'll make a post about it so stay tuned!
+1. [Github Actions](https://docs.github.com/en/actions) - פתרון CI\CD רב תכליתי עם קהילה ענקית, עבור תהליכי CI\CD אוטומטיים, WaloViz משתמשת בו כדי להפוך יצירת דוקומנטציה לאוטומטית, פרסום חבילות , בדיקות CI וכדו'.
+2. [VSCode Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers) - סביבת פיתוח מקומית מבוססת Docker, ל-On-Boarding קל ו-Setup לסביבת הפיתוח, אתה פשוט פותח את ה-repo וזה עושה זאת כל השאר בשבילך.
+3. [pre-commit](https://pre-commit.com/) - תשתית לניהול ה-pre-commit hooks, היא מריצה ולידציות ותיקונים של Pyright, Ruff, Prettier ועוד אוטומציות על כל הקוד בכל commit, כמו גם בכל push בעזרת Github Actions.
+4. [Pyright](https://microsoft.github.io/pyright/#/) - Static Typing ל-Python, זה חושף מלא באגים פוטנציאליים, שווה את המאמץ.
+5. [Ruff](https://docs.astral.sh/ruff/) - Python Formatting & Linting, זה מהיר ועצבני, הקוד שלכם ייראה וירגיש הרבה יותר טוב.
+6. [Prettier](https://prettier.io/docs/en/) - Formatting ל-Markdown, YAML ו-JSON, פשוט הופך דברים ליפים יותר :)
 
-### Good Docs
+בקרוב אצור Github Template עבור חבילת קוד-פתוח מודרנית בפייתון עם כל אלה כלולים, אני אפרסם פוסט על זה אז הישארו מעודכנים!
 
-I knew (and hoped) that WaloViz was going to be associated with the [HoloViz ecosystem](https://holoviz.org/), one of the hallmarks of every single HoloViz project is great interactive documentation.  
-In order to have the same look and feel I went for using [NBSite](https://nbsite.holoviz.org/), which is HoloViz's docs framework.
+### דוקומנטציה טובה
 
-**I do not recommend using NBSite.**  
-NBSite is based on [Sphinx](https://www.sphinx-doc.org/en/master/), and if you are not going for being a HoloViz clone, you can just use Sphinx directly, it's even more customizable.
+ידעתי (וקיוויתי) שאנשים יקשרו את WaloViz -ל[HoloViz ecosystem](https://holoviz.org/), אחד מסימני ההיכר של כל פרויקט HoloViz הוא תיעוד אינטראקטיבי מרשים ומושקע.  
+כדי ליצור את אותו המראה והתחושה הלכתי על שימוש ב-[NBSite](https://nbsite.holoviz.org/), שהיא תשתית הדוקומנטציה של HoloViz.
 
-Nevertheless, NBSite did come with handy Sphinx extensions and features out of the box, such as seamlessly embedding interactive notebooks outputs in you docs, like on the very start of the [Introduction Page of WaloViz](https://waloviz.com).
+**אני לא ממליץ להשתמש ב-NBSite.**
+NBSite מבוסס על [Sphinx](https://www.sphinx-doc.org/en/master/), ואם אתם לא מכוונים להיות שיבוט של פרויקט HoloViz, אתם יכולים פשוט להשתמש ב-Sphinx ישירות, זה אפילו יותר גמיש.
 
-Also, I invested a lot in comprehensive inline documentation which got automatically converted into the [API Reference Manual](https://waloviz.com/en/stable/reference-manual/index.html), it's good both for users that need to dive-in, and for beginner contributors that are just starting to dip their toes.
+בכל אופן, NBSite אכן הגיעה עם extension-ים ופיטצ'רים שימושיים של Sphinx פשוט Out-of-the-Box, כמו הטמעה חלקה של output-ים של מחברות אינטראקטיביות בדוקומנטציה, כמו ממש בתחילת [דף ה-Introduction של WaloViz](https://waloviz.com).
 
-The docs of WaloViz got tons of positive feedback, but I'm getting ahead of myself :)
+כמו כן, השקעתי הרבה בתיעוד inline מקיף שהומר אוטומטית ל[API Reference Manual](https://waloviz.com/en/stable/reference-manual/index.html), זה טוב גם למשתמשים שצריכים לצלול פנימה, וגם ל-contributor-ים מתחילים שרק החלו לטבול את בהונותיהם.
 
-### Finding Target Communities
+המסמכים של WaloViz קיבלו משוב חיובי גורף, אבל אני מקדים את עצמי :)
 
-I wanted the launch to be impactful and attract the right audiences, each project has a unique potential community, so my targets for the launch will not be yours.  
-Still, these might give you an idea as to what are good starting points and patterns:
+### מציאת קהילות יעד
 
-**Personal Communities**  
- Personal Facebook post, Whatsapp groups, DMs, these are the ones which your friends and colleagues will see.  
- I had a list of about 15 DMs for specific people, 3 relevant whatsapp groups of friends, and 1 personal post on Facebook. Your friends and colleagues are important, it might seem superficial to ask for help from a captive audience but that's how you're gonna get traction.
+רציתי שההשקה תהיה משמעותית ותמשוך את הקהלים הנכונים, לכל פרויקט יש קהילה פוטנציאלית ייחודית, כך היעדים שלי להשקה לא יהיו שלכם.  
+ובכל זאת, אלה עשויים לתת לכם מושג לגבי מהן נקודות התחלה טובות ודפוסים טובים:
 
-I really recommend asking them to support your Mainstream Communities posts, these are the real important ones.
+**קהילות אישיות**
+פוסט אישי בפייסבוק, קבוצות וואטסאפ, הודעות פרטיות, את אלו החברים והקולגות שלכם יראו.  
+הייתה לי רשימה של כ-15 הודעות פרטיות לאנשים ספציפיים, 3 קבוצות ווטסאפ רלוונטיות של חברים ופוסט אישי אחד בפייסבוק.  
+החברים והקולגות שלכם חשובים, זה אולי נראה שטחי לבקש עזרה מקהל שבוי אבל ככה אתם תתחילו את החיכוך שלכם.
 
-**Mainstream Communities**  
-X tweet, LinkedIn post, Specific Facebook group, these will get you exposure to the crowd, people you don't know, your first real users. I had a list of 3 mainstream whatsapp groups, 2 facebook groups and 1 discord channel.
+אני ממליץ לבקש מהם לתמוך בפוסטים שלכם בקהילות המיינסטרים, אלו החשובות באמת.
 
-There is only one problem, to get any attention - you need a CRITICAL MASS of initial attention.  
-Attention is like money, once you have some of it - it can make you more.  
-To get to your critical mass of likes or whatever get you friends and colleagues involved, it works :)
+**קהילות מיינסטרים**
+ציוץ X, פוסט ב-LinkedIn, קבוצת פייסבוק ספציפית, אלה יתנו לכם חשיפה לקהל הרחב, לאנשים שאתם לא מכירים, למשתמשים האמיתיים הראשונים שלכם. הייתה לי רשימה של 3 קבוצות וואטסאפ מיינסטרים, 2 קבוצות בפייסבוק וערוץ דיסקורד אחד.
 
-In my case the [MDLI community](https://www.facebook.com/groups/MDLI1/) was my top target mainstream, it's an Israeli Deep-Learning community, success there meant a lot for WaloViz. My friends got me to 30 likes, eventually overall I got 80 likes. CRITICAL MASS.
+יש רק בעיה אחת, כדי לקבל תשומת לב כלשהי - צריך **מסה קריטית** של תשומת לב ראשונית.  
+תשומת לב היא כמו כסף, ברגע שיש לך קצת - ניתן לייצר מהם עוד.  
+כדי להגיע למסה הקריטית של לייקים או מה שזה לא יהיה תרתמו את החברים והעמיתים לעזרתכם, זה עובד :)
 
-In retrospect I should have invested more in international mainstream communities, more on that later.
+במקרה שלי [קהילת MDLI](https://www.facebook.com/groups/MDLI1/) הייתה היעד המרכזי שלי, זו קהילת למידה עמוקה ישראלית, להצלחה שם הייתה משמעות רבה עבור WaloViz.  
+החברים שלי הביאו אותי ל-30 לייקים, בסופו של דבר בסך הכל קיבלתי 80 לייקים. **מסה קריטית**.
 
-**Expert Communities**  
-These are not what you think, it's not that real good group that has very high quality posts, or the super niche group with real industry experts.  
-No, those are just smaller Mainstream Communities.
+בדיעבד הייתי צריך להשקיע יותר בקהילות מיינסטרים בינלאומיות, ארחיב בהמשך.
 
-Expert Communities are not those with Domain Experts - but those with Open-Source Experts.
+**קהילות מומחים**
+זה לא מה שאתם חושבים, זו לא הקבוצה הטובה הזאת שיש לה פוסטים באיכות גבוהה מאוד, או הקבוצה הסופר נישתית עם המומחים האמיתיים בתעשייה.  
+לא, אלה רק קהילות מיינסטרים קטנות יותר.
 
-Find those that can relate to you, those that know what it's like to be a new open-source because they've been there.
+קהילות מומחים אינן אלה עם מומחי דומיין - אלא אלה עם מומחי קוד-פתוח.
 
-I had only 1 Expert Community in mind, the [Panel (part of the HoloViz ecosystem)](https://panel.holoviz.org/) discord channel.  
-If I had known what was going to happen next - I would've tried harder to find more Expert Communities.
+מצאו את אלה שיכולים להזדהות אתכם, אלה שיודעים מה זה להתחיל פרויקט קוד-פתוח כי הם היו שם.
 
-## A Strong Start
+הייתה לי בראש רק קהילת מומחים אחת, ערוץ הדיסקורד של [Panel (חלק מהמערכת האקולוגית של HoloViz)](https://panel.holoviz.org/).  
+אם הייתי יודע מה הולך לקרות - הייתי משקיע יותר בלמצוא קהילות מומחים נוספות.
 
-I posted everything, everywhere all at once.  
-And for a single day - I felt like that movie was my life.
+## התחלה חזקה
 
-The aftermath resulted in an incredible spike of interest on the 1st of August, as indicated by the user analytics for both [this very Portfolio Website](https://alonkellner.com) and the [WaloViz Docs](https://waloviz.com):
+פרסמתי הכל, בכל מקום בבת אחת.  
+וליום אחד - הרגשתי שהסרט הזה היה החיים שלי.
+
+כל האירועים הובילו לזינוק מדהים של עניין ב-1 באוגוסט, כפי שניתן לראות בניתוח המשתמשים הן עבור [אתר הפורטפוליו הזה ממש](https://alonkellner.com) והן עבור [הדוקומנטציה של WaloViz](https://waloviz.com):
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/portfolio-google-analytics-2024-08-14.png" title="Users over time, Google Analytics" class="img-fluid rounded z-depth-1" %}
-    </div>
+ <div class="col-sm mt-3 mt-md-0">
+ {% include figure.liquid loading="eager" path="assets/img/portfolio-google-analytics-2024-08-14.png" title="משתמשים לאורך זמן, Google Analytics" class="img-fluid rounded z -עומק-1" %}
+ </div>
 </div>
 <div class="caption">
-    Generated with <a href="https://analytics.google.com/analytics">Google Analytics</a> for <a href="https://alonkellner.com">alonkellner.com</a>
+ נוצר עם <a href="https://analytics.google.com/analytics">Google Analytics</a> עבור <a href="https://alonkellner.com">alonkellner.com</a>
 </div>
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/waloviz-cloudflare-analytics-2024-08-14.png" title="Users over time, Cloudflare Analytics" class="img-fluid rounded z-depth-1" %}
-    </div>
+ <div class="col-sm mt-3 mt-md-0">
+ {% include figure.liquid loading="eager" path="assets/img/waloviz-cloudflare-analytics-2024-08-14.png" title="משתמשים לאורך זמן, Cloudflare Analytics" class="img-fluid rounded z -עומק-1" %}
+ </div>
 </div>
 <div class="caption">
-    Generated with <a href="https://www.cloudflare.com/">CloudFlare</a> for <a href="https://waloviz.com">waloviz.com</a>
+ נוצר עם <a href="https://www.cloudflare.com/">CloudFlare</a> עבור <a href="https://waloviz.com">waloviz.com</a>
 </div>
 
-And on [the top of this post](#lessons-from-launching-an-open-source) you can see the incredible increase in stars in [the WaloViz Github Repo](https://github.com/AlonKellner/waloviz/).
+וב[תחילת הפוסט הזה](#lessons-from-launching-an-open-source) תוכלו לראות את העלייה המדהימה במספר הכוכבים [ב-WaloViz Github Repo](https://github.com/AlonKellner/waloviz/).
 
-Unfortunately the hype ends abruptly, the initial spike created very little lasting interest.  
-I did not achieve true CRITICAL MASS for WaloViz, where users just find it wherever they are without active intervention.
+לרוע המזל, ההייפ הסתיים בפתאומיות, הזינוק הראשוני יצר מעט מאוד עניין מתמשך.  
+לא השגתי מסה קריטית אמיתית עבור WaloViz, בה המשתמשים פשוט מוצאים אותה מכל מקום שבו הם נמצאים ללא התערבות פעילה.
 
-But that is for later, now let's go over some of of my favorite posts and reposts that got WaloViz to reach those 50 Github stars.
+אבל זה למאוחר יותר, עכשיו בואו נעבור על כמה מהפוסטים והריפוסטים האהובים עלי שאפשרו ל-WaloViz להגיע ל-50 כוכבי Github.
 
 ### MDLI
 
-As I said, MDLI was my top priority Mainstream Community, here's the post itself:
+כפי שאמרתי, MDLI הייתה קהילת המיינסטרים שבראש סדר העדיפויות שלי, הנה הפוסט עצמו:
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/waloviz-launch-mdli-post.png" title="The Hebrew MDLI post" class="img-fluid rounded z-depth-1" %}
-    </div>
+ <div class="col-sm mt-3 mt-md-0">
+ {% include figure.liquid loading="eager" path="assets/img/waloviz-launch-mdli-post.png" title="הפוסט ב-MDLI" class="img-fluid rounded z-depth-1" % }
+ </div>
 </div>
 <div class="caption">
-    See <a href="https://www.facebook.com/share/p/mYQtVEadLh4SJdHg/">the post on MDLI</a>
+ ראו <a href="https://www.facebook.com/share/p/mYQtVEadLh4SJdHg/">את הפוסט ב-MDLI</a>
 </div>
 
-Obviously the post is in Hebrew because it's an Israeli community, but it pretty much translates to:
+80 הלייקים ו-20 התגובות האלו היו ממש נחמדות ונתנו ל-WaloViz הרבה חשיפה, רבים שיבחו את איכות הדוקומנטציה, וכמו שאמרתי החברים והקולגות תרמו את חלקם באופן מופלא, תודה חברים :)
 
-> To all Speech folks - For the longest time I needed a good visualization library with interactive spectrograms in notebooks, I got tired and made one!
->
-> You're more than welcome to try it or pass it on to whoever you think can use it.
->
-> It's open-source as well, so do a Mitzvah and give a tiny star on GitHub ;)
+### ה-Discord של Panel
 
-Those 80 likes and 20 comments were really nice and got WaloViz a lot of traction, many praised the quality of the docs, and as I said my friends an colleagues did they're part wonderfully, thanks guys :)
-
-### The Panel Discord channel
-
-Honestly, at first I didn't expect much from this community, it's a small channel full of people that I never met, but I was about to be very surprised:
+בכנות, לא ציפיתי להרבה מהקהילה הזו, זה ערוץ קטן מלא באנשים שמעולם לא פגשתי, אבל עמדתי להיות מאוד מופתע:
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/waloviz-launch-panel-discord-post.png" title="The Panel discord message" class="img-fluid rounded z-depth-1" %}
-    </div>
+ <div class="col-sm mt-3 mt-md-0">
+ {% include figure.liquid loading="eager" path="assets/img/waloviz-launch-panel-discord-post.png" title="הודעת ה-discord ב-Panel" class="img-fluid rounded z-depth-1 " %}
+ </div>
 </div>
 <div class="caption">
-    See <a href="https://discordapp.com/channels/1075331058024861767/1088148883655364698/1268494576851746826">the message on the Panel discord</a>
+ ראו את <a href="https://discordapp.com/channels/1075331058024861767/1088148883655364698/1268494576851746826">הודעת ה-discord ב-Panel</a>
 </div>
 
-A few of their community leaders started engaging with me, some of them just got interested and started digging through my codebase to understand how it works, some opened PRs to make WaloViz better, and some... well, some were kind enough to help spread the word :)
+כמה ממנהיגי הקהילה שלהם התחילו לדבר איתי, חלק מהם פשוט התעניינו והתחילו לחפור בקוד שלי כדי להבין איך זה עובד, חלק פתחו PR-ים כדי לשפר את WaloViz, וחלק... ובכן, חלק היו אדיבים מספיק כדי לעזור להפיץ את הבשורה :)
 
-### Panel - Spreading the Word
+### Panel - הפצת הבשורה
 
-The first thing that happened was that my first LinkedIn post about WaloViz got reposted by Panel:
+הדבר הראשון שקרה היה שהפוסט הראשון שלי ב-LinkedIn על WaloViz קיבל ריפוסט מ-Panel:
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/waloviz-launch-linkedin-panel-repost.png" title="Panel original repost" class="img-fluid rounded z-depth-1" %}
-    </div>
+ <div class="col-sm mt-3 mt-md-0">
+ {% include figure.liquid loading="eager" path="assets/img/waloviz-launch-linkedin-panel-repost.png" title="הריפוסט המקורי של Panel" class="img-fluid rounded z-depth-1" %}
+ </div>
 </div>
 <div class="caption">
-    See <a href="https://www.linkedin.com/posts/alonkellner_alon-kellner-waloviz-is-out-activity-7224700653732855808-m_yb?utm_source=share&utm_medium=member_desktop">the original post on LinkedIn</a>
+ ראו את <a href="https://www.linkedin.com/posts/alonkellner_alon-kellner-waloviz-is-out-activity-7224700653732855808-m_yb?utm_source=share&utm_medium=member_desktop">הפוסט המקורי ב-LinkedIn</a>
 </div>
 
-To be later followed with two different posts by Panel that feature WaloViz:
+אז Panel פרסמו שני פוסטים שונים על WaloViz:
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/waloviz-launch-linkedin-panel-first-post.png" title="Panel first post" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/waloviz-launch-linkedin-panel-second-post.png" title="Panel second post" class="img-fluid rounded z-depth-1" %}
-    </div>
+ <div class="col-sm mt-3 mt-md-0">
+ {% include figure.liquid loading="eager" path="assets/img/waloviz-launch-linkedin-panel-first-post.png" title="הפוסט הראשון של Panel" class="img-fluid rounded z-depth- 1" %}
+ </div>
+ <div class="col-sm mt-3 mt-md-0">
+ {% include figure.liquid loading="eager" path="assets/img/waloviz-launch-linkedin-panel-second-post.png" title="הפוסט השני של Panel" class="img-fluid rounded z-depth- 1" %}
+ </div>
 </div>
 <div class="caption">
-    See <a href="https://www.linkedin.com/company/panel-org/posts/">the Panel page on LinkedIn</a>
+ ראו את <a href="https://www.linkedin.com/company/panel-org/posts/">הדף של Panel ב-LinkedIn</a>
 </div>
 
-I replied with my own repost and I featured Panel this time:
+השבתי עם פוסט משלי ואני הצגתי את Panel הפעם:
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/waloviz-launch-linkedin-i-feature-panel.png" title="I featured Panel!" class="img-fluid rounded z-depth-1" %}
-    </div>
+ <div class="col-sm mt-3 mt-md-0">
+ {% include figure.liquid loading="eager" path="assets/img/waloviz-launch-linkedin-i-feature-panel.png" title="הצגתי את Panel!" class="img-fluid rounded z-depth-1" %}
+ </div>
 </div>
 <div class="caption">
-    See <a href="https://www.linkedin.com/posts/alonkellner_audio-dataviz-datascience-activity-7225925608675921920-FExs?utm_source=share&utm_medium=member_desktop">the original post on LinkedIn</a>
+ ראו את <a href="https://www.linkedin.com/posts/alonkellner_audio-dataviz-datascience-activity-7225925608675921920-FExs?utm_source=share&utm_medium=member_desktop">הפוסט המקורי ב-LinkedIn</a>
 </div>
 
-As you can see none of these got many likes, so why am I getting all excited about them?
+כפי שאתם יכולים לראות אף אחד מהם לא קיבל הרבה לייקים, אז למה אני מתרגש מהם?
 
-Well, two main reasons, firstly it's not a series of posts, it's the beginning of a collaboration, a sign of good faith between me and the Panel community leaders, on my next big announcement they might do it again.  
-Secondly, this is the first international community that WaloViz got exposed to, this is great, since I did not put a lot of focus on international communities, although in retrospect I should have.
+ובכן, שתי סיבות עיקריות, ראשית זו לא סדרה של פוסטים, זו תחילתה של שותפות, סימן של אמון וכוונות טובות ביני לבין ראשי קהילת Panel, בהכרזה הגדולה הבאה שלי אולי הם יעשו זאת שוב.  
+שנית, זו הקהילה הבינלאומית הראשונה ש-WaloViz נחשפה אליה, זה נהדר, מכיוון שלא התמקדתי הרבה בקהילות בינלאומיות, למרות שבדיעבד הייתי צריך.
 
-This interaction gave WaloViz a boost, diversified my audience, started a collaboration and warmed my heart, thanks Panel!
+האינטראקציה הזו נתנה boost ל-WaloViz, גיוונה את הקהל שלי, התחילה שותפות וחיממה לי את הלב, תודה Panel!
 
-## The Flat Side of the Slide
+## הצד השטוח של המגלשה (לא עובד כמו באנגלית)
 
-As I mentioned in the [Strong Start section](#a-strong-start), the hype arrived and left very quickly.
+כפי שציינתי בסעיף [התחלה חזקה](#התחלה-חזקה), ההייפ הגיע והלך מהר מאוד.
 
-Now, WaloViz is not increasing in popularity, it's in a static status, a flat curve.  
-This is a bad curve for an open-source project.
+עכשיו, WaloViz לא גדלה בפופולריות, היא בסטטוס סטטי, עקומה שטוחה.  
+זוהי עקומה גרועה עבור פרויקט קוד פתוח.
 
-Open-Source projects need a straight diagonal line, a constant increase in stars, downloads or whatever.  
-To make it happen I must do four things:
+פרויקטי קוד-פתוח צריכים קו אלכסוני ישר, עלייה מתמדת בכוכבים, הורדות או כל דבר אחר.  
+כדי שזה יקרה אני חייב לעשות ארבעה דברים:
 
-1. **Work on WaloViz** - Advance on the WaloViz roadmap, fix issues, improve reliability, usability and readability.
-2. **Keep Nudging** - Keep posting updates on this blog and other platforms, share features and announcements such as the Beta version.
-3. **Create Funnels** - Put WaloViz in search results, either directly like a Medium article, or indirectly like an answer to a relevant stackoverflow question.
-4. **Collaborate** - Create PRs for neighboring projects and engage with communities, such as Panel or the new and exciting [AudioSample](https://github.com/deepdub-ai/audiosample) (it looks amazing, check them out!)
+1. **לעבוד על WaloViz** - להתקדם ב-Roadmap של WaloViz, לתקן בעיות, לשפר את המהימנות, השימושיות והקריאות.
+2. **להמשיך להפיץ** - להמשיך לפרסם עדכונים בבלוג הזה ובפלטפורמות אחרות, לפרסם פיטצ'ים והכרזות כמו גרסת הבטא.
+3. **ליצור משפכים** - לשים את WaloViz בתוצאות החיפוש, בין אם ישירות כמו כתבת Medium, או בעקיפין כמו תשובה לשאלה רלבנטית ב-stackoverflow.
+4. **לחזק שותפויות** - ליצור PR-ho לפרויקטים שכנים ותקשר עם קהילות, כמו Panel או [AudioSample] החדשה והמרגשת (https://github.com/deepdub-ai/audiosample) (היא נראית מדהים, נסו אותה!)
 
-These are not easy tasks, they require time, patience, determination and discipline.  
-At least I got this post done, which is a nice nudge ;)
+אלו משימות לא קלות, הן דורשות זמן, סבלנות, נחישות ומשמעת.  
+לפחות עשיתי את הפוסט הזה, וזו הפצה נחמדה ;)
 
-That's it for now, more is coming soon, stay tuned :wink:
+זהו לעת עתה, עוד בקרוב, הישארו מעודכנים :wink:

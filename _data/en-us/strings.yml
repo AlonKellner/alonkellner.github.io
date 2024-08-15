@@ -5,7 +5,7 @@ blog:
   navigation_title: blog
 categories:
   projects:
-    open-source: Open Source
+    open-source: Open-Source
   drawer:
     poetry: Poetry
     stories: Stories

@@ -118,7 +118,7 @@
     {
       "name": "WaloViz",
       "summary": "An open-source python package of an interactive audio player with a spectrogram built-in.",
-      "highlights": ["Open Source", "python", "Speech Processing"],
+      "highlights": ["Open-Source", "python", "Speech Processing"],
       "startDate": "2024-07-01",
       "endDate": "Present",
       "url": "https://waloviz.com"
