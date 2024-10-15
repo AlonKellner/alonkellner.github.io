@@ -1,6 +1,6 @@
 ---
-page_id: poem_2024-10-16_ill-say-anything
-date: 2024-10-16
+page_id: poem_2024-10-15_ill-say-anything
+date: 2024-10-15
 layout: page
 title: I'll Say Anything
 description: A poem about a man in a grave, pondering about his life and what he took with him to that grave

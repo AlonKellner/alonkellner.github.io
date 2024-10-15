@@ -1,6 +1,6 @@
 ---
-page_id: poem_2024-10-15_a-million-words
-date: 2024-10-15
+page_id: poem_2024-10-14_a-million-words
+date: 2024-10-14
 layout: page
 title: מליון מילים
 description: שיר על שפה, יצירה, שיתוף ואוצר מילים

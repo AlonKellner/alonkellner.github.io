@@ -1,6 +1,6 @@
 ---
-page_id: poem_2024-10-16_ill-say-anything
-date: 2024-10-16
+page_id: poem_2024-10-15_ill-say-anything
+date: 2024-10-15
 layout: page
 title: אומר את הכל
 description: שיר על אדם קבור שמהרהר על חייו ומה שנקבר יחד איתו
