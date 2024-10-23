@@ -5,6 +5,7 @@ layout: page
 title: זמן להרפתקה
 description: סיפור קצרצר שכתבתי בזמן השירות הצבאי, על סקרנות, פרספקטיבה, נחישות וטוב לב.
 img: /assets/img/hourglass.jpeg
+og_image: /assets/img/hourglass.jpeg
 importance: 1
 category: stories
 ---

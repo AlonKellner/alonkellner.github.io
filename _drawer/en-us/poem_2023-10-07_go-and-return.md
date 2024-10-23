@@ -5,6 +5,7 @@ layout: page
 title: Go and Return
 description: A poem I wrote on my way back from Italy to Israel, between the 7th and 9th of October.
 img: /assets/img/reserves-at-sunrise.webp
+og_image: /assets/img/reserves-at-sunrise.webp
 importance: 1
 category: poetry
 ---

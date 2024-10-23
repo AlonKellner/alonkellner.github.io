@@ -5,6 +5,7 @@ layout: page
 title: הבלדה על אולמו ומולינרי
 description: שיר שכתבתי בטיול אופניים עם אבא באיטליה.
 img: /assets/img/olmo-and-molinari.jpeg
+og_image: /assets/img/olmo-and-molinari.jpeg
 importance: 1
 category: poetry
 ---

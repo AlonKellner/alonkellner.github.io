@@ -5,6 +5,7 @@ layout: page
 title: "טעות אלוהית, פרק 1: קו ישר"
 description: סיפור קומדיה בהמשכים על פילוסופיה, צבא, החיים ומה שביניהם.
 img: /assets/img/angry-bus-driver.jpeg
+og_image: /assets/img/angry-bus-driver.jpeg
 importance: 1
 category: stories
 ---

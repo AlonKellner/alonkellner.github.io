@@ -5,6 +5,7 @@ layout: page
 title: Beauty
 description: A poem I wrote during my service, about beauty, appreciation, potential and creation.
 img: /assets/img/flower-hands.jpeg
+og_image: /assets/img/flower-hands.jpeg
 importance: 1
 category: poetry
 ---

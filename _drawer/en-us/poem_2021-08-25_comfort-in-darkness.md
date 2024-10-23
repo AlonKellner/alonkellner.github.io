@@ -5,6 +5,7 @@ layout: page
 title: Comfort in Darkness
 description: A poem I wrote during my service, about ambition, compromise, comfort and self delusion.
 img: /assets/img/closed-eyes.jpeg
+og_image: /assets/img/closed-eyes.jpeg
 importance: 1
 category: poetry
 ---

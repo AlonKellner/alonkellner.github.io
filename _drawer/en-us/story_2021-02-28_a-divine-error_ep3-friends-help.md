@@ -5,6 +5,7 @@ layout: page
 title: "A Divine Error, Episode 3: A Friend's Help"
 description: An episodical comedy about philosophy, the military, life and everything in between.
 img: /assets/img/blinding-sun.jpeg
+og_image: /assets/img/blinding-sun.jpeg
 importance: 1
 category: stories
 ---

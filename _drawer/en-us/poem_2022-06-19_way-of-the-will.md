@@ -5,6 +5,7 @@ layout: page
 title: Way of the Will
 description: A poem I wrote during my service, about resolve, freedom, wills and hubris.
 img: /assets/img/fire-hands.jpeg
+og_image: /assets/img/fire-hands.jpeg
 importance: 1
 category: poetry
 ---

@@ -5,6 +5,7 @@ layout: page
 title: החיים בים
 description: שיר שמבוסס על חלום מוזר, על הזמניות של חוויה, המגבלות של השפה ומה שלא ניתן לתאר.
 img: /assets/img/old-ocean-eye.jpeg
+og_image: /assets/img/old-ocean-eye.jpeg
 importance: 1
 category: poetry
 ---

@@ -5,6 +5,7 @@ layout: page
 title: First Assignment
 description: A poem I wrote during my service, about responsibility, frustration, the "Organization" and doubt.
 img: /assets/img/stick-figure-working.jpeg
+og_image: /assets/img/stick-figure-working.jpeg
 importance: 1
 category: poetry
 ---

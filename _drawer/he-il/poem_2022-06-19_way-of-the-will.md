@@ -5,6 +5,7 @@ layout: page
 title: בפני הרצון
 description: שיר שכתבתי תוך כדי השירות הצבאי, על תושייה, חופש, רצונות ויוהרה.
 img: /assets/img/fire-hands.jpeg
+og_image: /assets/img/fire-hands.jpeg
 importance: 1
 category: poetry
 ---

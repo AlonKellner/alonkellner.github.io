@@ -5,6 +5,7 @@ layout: page
 title: צופה מהצד
 description: סיפור קצר על עושר החיים, נקודות מבט, מוח קהילתי וחיוכים.
 img: /assets/img/note-sent.jpeg
+og_image: /assets/img/note-sent.jpeg
 importance: 1
 category: stories
 ---

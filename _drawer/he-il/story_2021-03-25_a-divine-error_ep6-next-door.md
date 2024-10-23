@@ -5,6 +5,7 @@ layout: page
 title: "טעות אלוהית, פרק 6: טעות בדלת"
 description: סיפור קומדיה בהמשכים על פילוסופיה, צבא, החיים ומה שביניהם.
 img: /assets/img/scary-itzik.jpeg
+og_image: /assets/img/scary-itzik.jpeg
 importance: 1
 category: stories
 ---

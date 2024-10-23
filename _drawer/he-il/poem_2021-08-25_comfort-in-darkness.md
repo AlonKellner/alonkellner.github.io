@@ -5,6 +5,7 @@ layout: page
 title: נחמה בחושך
 description: שיר שכתבתי תוך כדי השירות הצבאי, על שאיפות, פשרות, נחמה ואשליה עצמית.
 img: /assets/img/closed-eyes.jpeg
+og_image: /assets/img/closed-eyes.jpeg
 importance: 1
 category: poetry
 ---

@@ -5,6 +5,7 @@ layout: page
 title: A Million Words
 description: A song about language, creation, sharing and a treasure made of words
 img: /assets/img/handwritten-treasure.png
+og_image: /assets/img/handwritten-treasure.png
 importance: 1
 category: poetry
 ---

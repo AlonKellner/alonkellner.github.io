@@ -5,6 +5,7 @@ layout: page
 title: Missing
 description: A poem I wrote during my service, about thoughts, longing, expectations, self-contradiction and getting lost.
 img: /assets/img/dusty-trail.jpeg
+og_image: /assets/img/dusty-trail.jpeg
 importance: 1
 category: poetry
 ---

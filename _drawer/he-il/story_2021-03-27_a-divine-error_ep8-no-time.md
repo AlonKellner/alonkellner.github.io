@@ -5,6 +5,7 @@ layout: page
 title: "טעות אלוהית, פרק 8: אין זמן"
 description: סיפור קומדיה בהמשכים על פילוסופיה, צבא, החיים ומה שביניהם.
 img: /assets/img/due-date.jpeg
+og_image: /assets/img/due-date.jpeg
 importance: 1
 category: stories
 ---

@@ -5,6 +5,7 @@ layout: page
 title: שלושה זבובים
 description: שיר שמנסה להציג זווית מפתיעה לפחדים, על זבובים, על בני אדם, על סיפורים ועל אימה
 img: /assets/img/three-flies.jpeg
+og_image: /assets/img/three-flies.jpeg
 importance: 1
 category: poetry
 ---

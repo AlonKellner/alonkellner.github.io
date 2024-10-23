@@ -5,6 +5,7 @@ layout: page
 title: The Ballad of Olmo & Molinari
 description: A poem I wrote on a cycling trip in Italy.
 img: /assets/img/olmo-and-molinari.jpeg
+og_image: /assets/img/olmo-and-molinari.jpeg
 importance: 1
 category: poetry
 ---

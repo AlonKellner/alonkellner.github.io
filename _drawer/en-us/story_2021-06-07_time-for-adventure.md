@@ -5,6 +5,7 @@ layout: page
 title: The Time for an Adventure
 description: A very short story I wrote during my service, about curiosity, perspective, resolve and kindness.
 img: /assets/img/hourglass.jpeg
+og_image: /assets/img/hourglass.jpeg
 importance: 1
 category: stories
 ---

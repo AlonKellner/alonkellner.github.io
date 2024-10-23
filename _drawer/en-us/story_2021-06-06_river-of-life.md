@@ -5,6 +5,7 @@ layout: page
 title: The River of Life
 description: A very short story I wrote during my service, about life, ambition, ethics and history.
 img: /assets/img/river.jpeg
+og_image: /assets/img/river.jpeg
 importance: 1
 category: stories
 ---

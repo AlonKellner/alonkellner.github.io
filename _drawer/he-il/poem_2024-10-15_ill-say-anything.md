@@ -5,6 +5,7 @@ layout: page
 title: אומר את הכל
 description: שיר על אדם קבור שמהרהר על חייו ומה שנקבר יחד איתו
 img: /assets/img/man-in-coffin.jpeg
+og_image: /assets/img/man-in-coffin.jpeg
 importance: 1
 category: poetry
 ---

@@ -5,6 +5,7 @@ layout: page
 title: "טעות אלוהית, פרק 3: עזרת חבר"
 description: סיפור קומדיה בהמשכים על פילוסופיה, צבא, החיים ומה שביניהם.
 img: /assets/img/blinding-sun.jpeg
+og_image: /assets/img/blinding-sun.jpeg
 importance: 1
 category: stories
 ---

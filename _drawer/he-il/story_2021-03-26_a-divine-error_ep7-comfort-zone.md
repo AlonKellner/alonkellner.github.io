@@ -5,6 +5,7 @@ layout: page
 title: "טעות אלוהית, פרק 7: אזור הנוחות"
 description: סיפור קומדיה בהמשכים על פילוסופיה, צבא, החיים ומה שביניהם.
 img: /assets/img/kettle.jpeg
+og_image: /assets/img/kettle.jpeg
 importance: 1
 category: stories
 ---

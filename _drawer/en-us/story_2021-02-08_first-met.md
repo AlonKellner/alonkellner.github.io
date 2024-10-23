@@ -5,6 +5,7 @@ layout: page
 title: First Met
 description: A short story I wrote during my service, about youth, partnership, confidence and time-travels.
 img: /assets/img/italian-dish.jpeg
+og_image: /assets/img/italian-dish.jpeg
 importance: 1
 category: stories
 ---
