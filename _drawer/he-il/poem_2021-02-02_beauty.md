@@ -5,7 +5,7 @@ layout: page
 title: יופי
 description: שיר שכתבתי תוך כדי השירות הצבאי, על יופי, הערכה, פוטנציאל ויצירה.
 img: /assets/img/flower-hands.jpeg
-og_image: /assets/img/flower-hands.jpeg
+og_image: https://alonkellner.com/assets/img/flower-hands.jpeg
 importance: 1
 category: poetry
 ---

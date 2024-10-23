@@ -5,7 +5,7 @@ layout: page
 title: Regrets
 description: A Sondheim inspired poem, about being lost, the confinements of the self, acceptance and regrets.
 img: /assets/img/out-of-the-cave.jpeg
-og_image: /assets/img/out-of-the-cave.jpeg
+og_image: https://alonkellner.com/assets/img/out-of-the-cave.jpeg
 importance: 1
 category: poetry
 ---

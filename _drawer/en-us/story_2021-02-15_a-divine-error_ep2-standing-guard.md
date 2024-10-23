@@ -5,7 +5,7 @@ layout: page
 title: "A Divine Error, Episode 2: Standing Guard"
 description: An episodical comedy about philosophy, the military, life and everything in between.
 img: /assets/img/desert-station.jpeg
-og_image: /assets/img/desert-station.jpeg
+og_image: https://alonkellner.com/assets/img/desert-station.jpeg
 importance: 1
 category: stories
 ---

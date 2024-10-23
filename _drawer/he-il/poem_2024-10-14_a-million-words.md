@@ -5,7 +5,7 @@ layout: page
 title: מליון מילים
 description: שיר על שפה, יצירה, שיתוף ואוצר מילים
 img: /assets/img/handwritten-treasure.png
-og_image: /assets/img/handwritten-treasure.png
+og_image: https://alonkellner.com/assets/img/handwritten-treasure.png
 importance: 1
 category: poetry
 ---

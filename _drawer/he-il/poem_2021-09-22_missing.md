@@ -5,7 +5,7 @@ layout: page
 title: החסר
 description: שיר שכתבתי תוך כדי השירות הצבאי, על מחשבות, כמיהה, ציפיות, סתירה פנימית וללכת לאיבוד.
 img: /assets/img/dusty-trail.jpeg
-og_image: /assets/img/dusty-trail.jpeg
+og_image: https://alonkellner.com/assets/img/dusty-trail.jpeg
 importance: 1
 category: poetry
 ---

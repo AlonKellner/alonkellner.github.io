@@ -5,7 +5,7 @@ layout: page
 title: נהר החיים
 description: סיפור קצרצר שכתבתי בזמן השירות הצבאי, על חיים, שאפתנות, אתיקה והיסטוריה.
 img: /assets/img/river.jpeg
-og_image: /assets/img/river.jpeg
+og_image: https://alonkellner.com/assets/img/river.jpeg
 importance: 1
 category: stories
 ---

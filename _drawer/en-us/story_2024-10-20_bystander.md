@@ -5,7 +5,7 @@ layout: page
 title: Bystander
 description: A short story about valuing life, points of view, communal hive mind and smiles.
 img: /assets/img/note-sent.jpeg
-og_image: /assets/img/note-sent.jpeg
+og_image: https://alonkellner.com/assets/img/note-sent.jpeg
 importance: 1
 category: stories
 ---

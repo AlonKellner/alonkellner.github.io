@@ -5,7 +5,7 @@ layout: page
 title: תפקיד ראשון
 description: שיר שכתבתי תוך כדי השירות הצבאי, על אחריות, תסכול, ה"ארגון" ודאגה.
 img: /assets/img/stick-figure-working.jpeg
-og_image: /assets/img/stick-figure-working.jpeg
+og_image: https://alonkellner.com/assets/img/stick-figure-working.jpeg
 importance: 1
 category: poetry
 ---

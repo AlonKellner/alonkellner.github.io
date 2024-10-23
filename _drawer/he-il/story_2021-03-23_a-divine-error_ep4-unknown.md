@@ -5,7 +5,7 @@ layout: page
 title: "טעות אלוהית, פרק 4: לא מוכר"
 description: סיפור קומדיה בהמשכים על פילוסופיה, צבא, החיים ומה שביניהם.
 img: /assets/img/desert-elevator.jpeg
-og_image: /assets/img/desert-elevator.jpeg
+og_image: https://alonkellner.com/assets/img/desert-elevator.jpeg
 importance: 1
 category: stories
 ---

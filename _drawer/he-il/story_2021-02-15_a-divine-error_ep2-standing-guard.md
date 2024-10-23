@@ -5,7 +5,7 @@ layout: page
 title: "טעות אלוהית, פרק 2: עומד בשער"
 description: סיפור קומדיה בהמשכים על פילוסופיה, צבא, החיים ומה שביניהם.
 img: /assets/img/desert-station.jpeg
-og_image: /assets/img/desert-station.jpeg
+og_image: https://alonkellner.com/assets/img/desert-station.jpeg
 importance: 1
 category: stories
 ---

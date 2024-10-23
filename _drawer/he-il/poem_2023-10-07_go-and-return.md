@@ -5,7 +5,7 @@ layout: page
 title: לצאת ולחזור
 description: שיר שכתבתי בדרך חזרה מאיטליה לארץ, בין ה-7 ל-9 באוקטובר, 2023.
 img: /assets/img/reserves-at-sunrise.webp
-og_image: /assets/img/reserves-at-sunrise.webp
+og_image: https://alonkellner.com/assets/img/reserves-at-sunrise.webp
 importance: 1
 category: poetry
 ---

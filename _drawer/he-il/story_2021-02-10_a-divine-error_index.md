@@ -5,7 +5,7 @@ layout: page
 title: טעות אלוהית, תוכן עניינים
 description: סיפור קומדיה בהמשכים על פילוסופיה, צבא, החיים ומה שביניהם.
 img: /assets/img/divine-apple-worm.jpeg
-og_image: /assets/img/divine-apple-worm.jpeg
+og_image: https://alonkellner.com/assets/img/divine-apple-worm.jpeg
 importance: 1
 category: stories
 ---

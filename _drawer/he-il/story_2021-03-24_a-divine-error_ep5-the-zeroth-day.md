@@ -5,7 +5,7 @@ layout: page
 title: "טעות אלוהית, פרק 5: יום אפס"
 description: סיפור קומדיה בהמשכים על פילוסופיה, צבא, החיים ומה שביניהם.
 img: /assets/img/person-hole.jpeg
-og_image: /assets/img/person-hole.jpeg
+og_image: https://alonkellner.com/assets/img/person-hole.jpeg
 importance: 1
 category: stories
 ---
