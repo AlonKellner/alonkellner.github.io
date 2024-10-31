@@ -4,8 +4,8 @@ date: 2024-10-20
 layout: page
 title: צופה מהצד
 description: סיפור קצר על עושר החיים, נקודות מבט, מוח קהילתי וחיוכים.
-img: /assets/img/note-sent.jpeg
-og_image: https://alonkellner.com/assets/img/note-sent.jpeg
+img: /assets/img/note-sent.png
+og_image: https://alonkellner.com/assets/img/note-sent.png
 importance: 1
 category: stories
 ---

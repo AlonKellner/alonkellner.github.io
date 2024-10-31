@@ -73,7 +73,7 @@ So I did the only sensible thing anyone would do - I created yet another audio p
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/spectrogram-tomroelandts.jpg" title="A typical Spectrogram" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/spectrogram-tomroelandts.jpeg" title="A typical Spectrogram" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

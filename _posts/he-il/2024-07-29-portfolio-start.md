@@ -5,13 +5,13 @@ date: 2024-07-29 13:00:00
 description: שנת פורטפוליו, מוקדשת להשגת פרויקטים ומאמרים מוצלחים
 tags: ideas
 categories: personal
-thumbnail: /assets/img/plant-a-seed.jpg
+thumbnail: /assets/img/plant-a-seed.jpeg
 featured: true
 ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/plant-a-seed.jpg" title="The start of something new" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/plant-a-seed.jpeg" title="The start of something new" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

@@ -5,7 +5,7 @@ layout: page
 title: "A Divine Error, Episode 4: Unknown"
 description: An episodical comedy about philosophy, the military, life and everything in between.
 img: /assets/img/desert-elevator.jpeg
-og_image: https://alonkellner.com/assets/img/desert-elevator.jpeg
+og_image: https://alonkellner.com/assets/img/desert-elevator.png
 importance: 1
 category: stories
 ---
