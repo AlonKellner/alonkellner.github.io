@@ -70,7 +70,7 @@ cv:
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
   נוצר באמצעות <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> עם-<a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>.
   מונגש באמצעות <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-latest_posts: פרסומים אחרונים
+latest_posts: פוסטים אחרונים
 months:
   long:
     january: ינואר
@@ -110,8 +110,8 @@ post:
   last_updated: עודכן לאחרונה על ידי
 references: אזכורים
 related_posts:
-  description: "הנה כמה כתבות שאולי תרצה להמשיך אליהם:"
-  title: נהנה מהכתבה?
+  description: "הנה כמה פוסטים שאולי תרצו להמשיך אליהם:"
+  title: נהנים מהפוסט?
 search:
   dark_theme:
     description: שנה את התצוגה למצב אפל
