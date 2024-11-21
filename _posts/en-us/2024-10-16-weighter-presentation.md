@@ -30,6 +30,11 @@ In this post, I will try to answer some of the questions I was asked, clarify po
 To understand this blog post you need to be familiar with the lecture itself, the kind organizers of the conference uploaded [the full lecture on their Youtube channel](https://youtu.be/wxMQJ3vXngg), you are welcome to watch it there :)  
 In addition, you are welcome to go through [my presentation](https://docs.google.com/presentation/d/1QP9b4ywiy1CL_9DU-WOqo2rGDdN3GsB5Wu-hEX2_N6w/edit?usp=drivesdk) yourself and at your own pace, regardless of the recording itself.
 
+There are 2 parts in this blog post, the first is [Q & A](#q--a) where I'll answer some of the questions I was asked after the lecture, most of them are clarifications about the details of our research and method.  
+The second part is [Deep dive & Enrichment](#deep-dive--enrichment) will expand on subjects which I didn't have the time to get into in the lecture.
+
+Let's start :)
+
 ## Q & A
 
 1. **What does your model output?**  
@@ -51,7 +56,7 @@ In addition, you are welcome to go through [my presentation](https://docs.google
    But we did some interesting things around it, first we used two convolution layers to reduce the number of dimensions in channels by a factor of 12 and in time by a factor of 15, this saved a lot of VRAM and almost did not change performance, it even made training a little easier and improved performance (at least during the first few epochs).  
    So at the output we tried to do a convolution to restore the reduced time dimension, in the end the best option was to duplicate the weightings 15 times (repeat interleave), convolutions were worse.
 
-### Deep dive & Enrichment
+## Deep dive & Enrichment
 
 Here I’ve chosen a few specific subjects from our research that I particularly liked but didn’t have time to go into detail about during the lecture.  
 If you're looking to enrich your understanding of the nature of the research we conducted and how we arrived at our innovations – this section is for you :)
