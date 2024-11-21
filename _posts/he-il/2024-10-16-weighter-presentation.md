@@ -15,7 +15,7 @@ thumbnail: /assets/img/defenseml-banner.png
  </div>
 </div>
 <div class="caption">
- צפו <a href="https://machinelearning.co.il/lp-events/defenseml/">בסרטון שלי מעביר את ההרצאה!</a> אתם יכולים גם לפתוח את <a href="https://docs.google.com/presentation/d/1QP9b4ywiy1CL_9DU-WOqo2rGDdN3GsB5Wu-hEX2_N6w/edit?usp=drivesdk">המצגת המקורית</a> :)
+ צפו <a href="https://machinelearning.co.il/lp-events/defenseml/">בסרטון שלי מעביר את ההרצאה!</a> אתם יכולים גם לפתוח את <a href="https://docs.google.com/presentation/d/1QP9b4ywiy1CL_9DU-WOqo2rGDdN3GsB5Wu-hEX2_N6w/edit?usp=sharing">המצגת המקורית</a> :)
 </div>
 
 הכנס DefenseML היה מרתק ומשמעותי, היה לי התענוג להרצות לצד מרצים מוכשרים ועם מארגנים תותחים שהשקיעו בכנס שרמתו הייתה גבוהה מאוד.
@@ -28,7 +28,7 @@ thumbnail: /assets/img/defenseml-banner.png
 בפוסט הזה אני אנסה לענות על חלק מהשאלות ששאלו אותי, להבהיר נקודות שבלבלו חלק מהאנשים ולהרחיב על חלק מהרעיונות שהוצגו בהרצאה.
 
 כדי להבין את הבלוג פוסט הזה אתם צריכים להכיר את ההרצאה עצמה, המארגנים האדיבים של הכנס העלו את [ההרצאה במלואה בערוץ ה-Youtube שלהם](https://youtu.be/wxMQJ3vXngg), אתם מוזמנים לראות אותה שם :)  
-בנוסף אתם מוזמנים לעבור על [המצגת שלי](https://docs.google.com/presentation/d/1QP9b4ywiy1CL_9DU-WOqo2rGDdN3GsB5Wu-hEX2_N6w/edit?usp=drivesdk) בעצמכם ובקצב שלכם, בלי קשר להרצאה עצמה.
+בנוסף אתם מוזמנים לעבור על [המצגת שלי](https://docs.google.com/presentation/d/1QP9b4ywiy1CL_9DU-WOqo2rGDdN3GsB5Wu-hEX2_N6w/edit?usp=sharing) בעצמכם ובקצב שלכם, בלי קשר להרצאה עצמה.
 
 בפוסט הזה שני חלקים, הראשון [שאלות ותשובות](#שאלות-ותשובות), בו אענה על חלק מהשאלות ששאלו אותי אחרי ההרצאה, רובן נוגעות להבהרות וחידודים בנוגע לפרטי המחקר והשיטה שלנו.  
 החלק השני [העמקה והעשרה](#העמקה-והעשרה) יעמיק בנושאים שלא יכלתי להיכנס אליהם בהרצאה.
@@ -86,7 +86,7 @@ from torchaudio.models.wav2vec2.components import _get_wavlm_encoder, FeaturePro
 הנה דוגמא שתמחיש למה מימד הזמן הוא מהותי:
 
 {::nomarkdown}
-{% assign jupyter_path = 'assets/jupyter/he-il/weighter/simulation/stereo_envelope.ipynb' | relative_url %}
+{% assign jupyter_path = 'assets/jupyter/weighter/simulation/stereo_envelope.ipynb' | relative_url %}
 {% jupyter_notebook jupyter_path %}
 {:/nomarkdown}
 
@@ -95,7 +95,7 @@ from torchaudio.models.wav2vec2.components import _get_wavlm_encoder, FeaturePro
 בואו ננסה לעשות מה שדיאריזציה עושה - ננסה להבין בכל רגע מי מהערוצים מדבר:
 
 {::nomarkdown}
-{% assign jupyter_path = 'assets/jupyter/he-il/weighter/simulation/loud_channel.ipynb' | relative_url %}
+{% assign jupyter_path = 'assets/jupyter/weighter/simulation/loud_channel.ipynb' | relative_url %}
 {% jupyter_notebook jupyter_path %}
 {:/nomarkdown}
 
@@ -246,7 +246,7 @@ $$ wBCE(y,\hat{y})=-y⋅ln(\hat{y})+f(y, \hat{y})=-y⋅ln(\hat{y})+\hat{y} $$
 כדי לקבל יותר אינטואיציה מה ההבדלים, אציג כמה ויזואליזציות פשוטות של BCE מול wBCE:
 
 {::nomarkdown}
-{% assign jupyter_path = 'assets/jupyter/he-il/weighter/wBCE.ipynb' | relative_url %}
+{% assign jupyter_path = 'assets/jupyter/weighter/wBCE.ipynb' | relative_url %}
 {% jupyter_notebook jupyter_path %}
 {:/nomarkdown}
 

@@ -11,11 +11,11 @@ thumbnail: /assets/img/defenseml-banner.png
 <br/>
 <div class="row">
  <div class="col-sm mt-3 mt-md-0">
- {% include figure.liquid loading="eager" path="assets/img/defenseml/he-il/01.png" title="Opening Slide" class="img-fluid rounded z-depth-1" %}
+ {% include figure.liquid loading="eager" path="assets/img/defenseml/en-us/01.png" title="Opening Slide" class="img-fluid rounded z-depth-1" %}
  </div>
 </div>
 <div class="caption">
- Watch <a href="https://machinelearning.co.il/lp-events/defenseml/">the recording of me presenting!</a> You may also view <a href="https://docs.google.com/presentation/d/1QP9b4ywiy1CL_9DU-WOqo2rGDdN3GsB5Wu-hEX2_N6w/edit?usp=drivesdk">the original presentation</a> :)
+ Watch <a href="https://machinelearning.co.il/lp-events/defenseml/">the recording of me presenting!</a> You may also view <a href="https://docs.google.com/presentation/d/173AjB0vz8pdrKIiAR8JdxvhF1KGvq_SESwpL-LW-G78/edit?usp=sharing">the original presentation</a> :)
 </div>
 
 The DefenseML conference was fascinating and meaningful. I had the pleasure of speaking alongside talented speakers and talented organizers who invested in a conference of a very high standard.
@@ -28,7 +28,7 @@ This is a criticism that I expected, in 20 minutes it is impossible to summarize
 In this post, I will try to answer some of the questions I was asked, clarify points that confused some people, and expand on some of the ideas presented in the lecture.
 
 To understand this blog post you need to be familiar with the lecture itself, the kind organizers of the conference uploaded [the full lecture on their Youtube channel](https://youtu.be/wxMQJ3vXngg), you are welcome to watch it there :)  
-In addition, you are welcome to go through [my presentation](https://docs.google.com/presentation/d/1QP9b4ywiy1CL_9DU-WOqo2rGDdN3GsB5Wu-hEX2_N6w/edit?usp=drivesdk) yourself and at your own pace, regardless of the recording itself.
+In addition, you are welcome to go through [my presentation](https://docs.google.com/presentation/d/173AjB0vz8pdrKIiAR8JdxvhF1KGvq_SESwpL-LW-G78/edit?usp=sharing) yourself and at your own pace, regardless of the recording itself.
 
 There are 2 parts in this blog post, the first is [Q & A](#q--a) where I'll answer some of the questions I was asked after the lecture, most of them are clarifications about the details of our research and method.  
 The second part is [Deep dive & Enrichment](#deep-dive--enrichment) will expand on subjects which I didn't have the time to get into in the lecture.
@@ -86,7 +86,7 @@ Apart from it being differentiable and not engineered, we had one unique advanta
 Here’s an example that will illustrate why the time dimension is essential:
 
 {::nomarkdown}
-{% assign jupyter_path = 'assets/jupyter/he-il/weighter/simulation/stereo_envelope.ipynb' | relative_url %}
+{% assign jupyter_path = 'assets/jupyter/weighter/simulation/stereo_envelope.ipynb' | relative_url %}
 {% jupyter_notebook jupyter_path %}
 {:/nomarkdown}
 
@@ -95,7 +95,7 @@ The envelope of each channel is displayed over the spectrogram.
 Let’s try to do what diarization does – let’s try to determine which channel is speaking at any given moment:
 
 {::nomarkdown}
-{% assign jupyter_path = 'assets/jupyter/he-il/weighter/simulation/loud_channel.ipynb' | relative_url %}
+{% assign jupyter_path = 'assets/jupyter/weighter/simulation/loud_channel.ipynb' | relative_url %}
 {% jupyter_notebook jupyter_path %}
 {:/nomarkdown}
 
@@ -247,7 +247,7 @@ $$ wBCE(y,\hat{y})=-y⋅\ln(\hat{y})+f(y, \hat{y})=-y⋅\ln(\hat{y})+\hat{y} $$
 To get more intuition about the differences, I’ll present some simple visualizations comparing BCE and wBCE:
 
 {::nomarkdown}
-{% assign jupyter_path = 'assets/jupyter/he-il/weighter/wBCE.ipynb' | relative_url %}
+{% assign jupyter_path = 'assets/jupyter/weighter/wBCE.ipynb' | relative_url %}
 {% jupyter_notebook jupyter_path %}
 {:/nomarkdown}
 
