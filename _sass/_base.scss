@@ -536,7 +536,36 @@ footer.sticky-bottom {
   }
 }
 
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
 .post-title {
+  overflow: hidden;
+  // border-right: .15em solid orange;
+  white-space: nowrap;
+  // font-size: 1.6rem;
+  width: 0;
+  animation:
+    fadeInRight 1s ease-in-out,
+    typing 3s forwards;
+  transition: transform 330ms ease-in-out;
+  transform-origin: 0% 50%;
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }
