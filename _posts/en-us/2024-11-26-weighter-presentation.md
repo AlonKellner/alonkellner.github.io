@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Deep Dive into my "Weighter" talk in DefenseML
-date: 2024-11-06 13:00:00
+date: 2024-11-26 13:00:00
 description: An in depth explanation of a fascinating research effort called "Weighter" which I presented on MDLI's DefenseML conference.
 tags: research
 categories: professional
@@ -27,11 +27,14 @@ Fortunately, this is a criticism that was easy to correct. The more general crit
 This is a criticism that I expected, in 20 minutes it is impossible to summarize all the details of a complete and extensive research effort. I tried to give a taste, intuitions, directions, but I could not provide understanding.  
 In this post, I will try to answer some of the questions I was asked, clarify points that confused some people, and expand on some of the ideas presented in the lecture.
 
-To understand this blog post you need to be familiar with the lecture itself, the kind organizers of the conference uploaded [the full lecture on their Youtube channel](https://youtu.be/wxMQJ3vXngg), you are welcome to watch it there :)  
+To understand this blog post you need to be familiar with the lecture itself, the kind organizers of the conference uploaded [the full lecture on their Youtube channel](https://youtu.be/wxMQJ3vXngg), you are welcome to watch it there :)
+
+{% include video.liquid path="https://www.youtube.com/embed/wxMQJ3vXngg?si=zpaFWi3r2d1Xb541" class="img-fluid rounded z-depth-1" %}
+
 In addition, you are welcome to go through [my presentation](https://docs.google.com/presentation/d/173AjB0vz8pdrKIiAR8JdxvhF1KGvq_SESwpL-LW-G78/edit?usp=sharing) yourself and at your own pace, regardless of the recording itself.
 
 There are 2 parts in this blog post, the first is [Q & A](#q--a) where I'll answer some of the questions I was asked after the lecture, most of them are clarifications about the details of our research and method.  
-The second part is [Deep dive & Enrichment](#deep-dive--enrichment) will expand on subjects which I didn't have the time to get into in the lecture.
+The second part is [Deep dive & Enrichment](#deep-dive--enrichment) which will expand on subjects which I didn't have the time to get into in the lecture.
 
 Let's start :)
 
@@ -48,13 +51,13 @@ Let's start :)
 3. **You talked about clustering and that it is not differentiable, but there are ways to extract differentiable weightings from clustering algorithms, have you tried them?**  
    Short answer - we didn't try, it wasn't accessible enough and we had intuitions that it wouldn't work well.  
    In a little more detail - as I elaborate later in the post about [The Simulation](#the-simulation), we had evidence that the time dimension is very significant, and a learning algorithm could do a lot that a clustering algorithm that ignores the time dimension could never do.  
-   (P.S: A clustering that takes into account the time dimension is a whole complication of its own, in our literature review we didn't find anything suitable).
+   (P.S: A clustering algorithm that takes into account the time dimension is a whole complication of its own, in our literature review we didn't find anything suitable).
 
 4. **How ​​are the layers of your "Weighter" module structured?**  
-   We used torchaudio's implementation of the WavLM Encoder block, basically a cute block with self-attention and positional-embeddings and of course lots of built-in hyperparameters.  
+   As I elaborate later this post in [Layers from `torchaudio`](#layers-from-torchaudio), we used torchaudio's implementation of the WavLM Encoder block, basically a cute block with self-attention and positional-embeddings and of course lots of built-in hyperparameters.  
    There is nothing sophisticated in the core part. It's a Transformer.  
    But we did some interesting things around it, first we used two convolution layers to reduce the number of dimensions in channels by a factor of 12 and in time by a factor of 15, this saved a lot of VRAM and almost did not change performance, it even made training a little easier and improved performance (at least during the first few epochs).  
-   So at the output we tried to do a convolution to restore the reduced time dimension, in the end the best option was to duplicate the weightings 15 times (repeat interleave), convolutions were worse.
+   Then at the output we tried to do a convolution to restore the reduced time dimension, in the end the best option was to duplicate the weightings 15 times (repeat interleave), convolutions were worse.
 
 ## Deep dive & Enrichment
 
