@@ -30,7 +30,6 @@ In this post, I will try to answer some of the questions I was asked, clarify po
 To understand this blog post you need to be familiar with the lecture itself, the kind organizers of the conference uploaded [the full lecture on their Youtube channel](https://youtu.be/wxMQJ3vXngg), you are welcome to watch it there :)
 
 {% include video.liquid path="https://www.youtube.com/embed/wxMQJ3vXngg?si=zpaFWi3r2d1Xb541" class="img-fluid rounded z-depth-1" %}
-
 In addition, you are welcome to go through [my presentation](https://docs.google.com/presentation/d/173AjB0vz8pdrKIiAR8JdxvhF1KGvq_SESwpL-LW-G78/edit?usp=sharing) yourself and at your own pace, regardless of the recording itself.
 
 There are 2 parts in this blog post, the first is [Q & A](#q--a) where I'll answer some of the questions I was asked after the lecture, most of them are clarifications about the details of our research and method.  
@@ -89,7 +88,7 @@ Apart from it being differentiable and not engineered, we had one unique advanta
 Here’s an example that will illustrate why the time dimension is essential:
 
 {::nomarkdown}
-{% assign jupyter_path = 'assets/jupyter/weighter/simulation/stereo_envelope.ipynb' | relative_url %}
+{% assign jupyter_path = 'assets/jupyter/weighter/stereo_envelope.ipynb' | relative_url %}
 {% jupyter_notebook jupyter_path %}
 {:/nomarkdown}
 
@@ -98,7 +97,7 @@ The envelope of each channel is displayed over the spectrogram.
 Let’s try to do what diarization does – let’s try to determine which channel is speaking at any given moment:
 
 {::nomarkdown}
-{% assign jupyter_path = 'assets/jupyter/weighter/simulation/loud_channel.ipynb' | relative_url %}
+{% assign jupyter_path = 'assets/jupyter/weighter/loud_channel.ipynb' | relative_url %}
 {% jupyter_notebook jupyter_path %}
 {:/nomarkdown}
 

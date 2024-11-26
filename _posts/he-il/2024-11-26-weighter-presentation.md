@@ -30,7 +30,6 @@ thumbnail: /assets/img/defenseml-banner.png
 כדי להבין את הבלוג פוסט הזה אתם צריכים להכיר את ההרצאה עצמה, המארגנים האדיבים של הכנס העלו את [ההרצאה במלואה בערוץ ה-Youtube שלהם](https://youtu.be/wxMQJ3vXngg), אתם מוזמנים לראות אותה שם :)
 
 {% include video.liquid path="https://www.youtube.com/embed/wxMQJ3vXngg?si=zpaFWi3r2d1Xb541" class="img-fluid rounded z-depth-1" %}
-
 בנוסף אתם מוזמנים לעבור על [המצגת שלי](https://docs.google.com/presentation/d/1QP9b4ywiy1CL_9DU-WOqo2rGDdN3GsB5Wu-hEX2_N6w/edit?usp=sharing) בעצמכם ובקצב שלכם, בלי קשר להרצאה עצמה.
 
 בפוסט הזה שני חלקים, הראשון [שאלות ותשובות](#שאלות-ותשובות), בו אענה על חלק מהשאלות ששאלו אותי אחרי ההרצאה, רובן נוגעות להבהרות וחידודים בנוגע לפרטי המחקר והשיטה שלנו.  
@@ -89,7 +88,7 @@ from torchaudio.models.wav2vec2.components import _get_wavlm_encoder, FeaturePro
 הנה דוגמא שתמחיש למה מימד הזמן הוא מהותי:
 
 {::nomarkdown}
-{% assign jupyter_path = 'assets/jupyter/weighter/simulation/stereo_envelope.ipynb' | relative_url %}
+{% assign jupyter_path = 'assets/jupyter/weighter/stereo_envelope.ipynb' | relative_url %}
 {% jupyter_notebook jupyter_path %}
 {:/nomarkdown}
 
@@ -98,7 +97,7 @@ from torchaudio.models.wav2vec2.components import _get_wavlm_encoder, FeaturePro
 בואו ננסה לעשות מה שדיאריזציה עושה - ננסה להבין בכל רגע מי מהערוצים מדבר:
 
 {::nomarkdown}
-{% assign jupyter_path = 'assets/jupyter/weighter/simulation/loud_channel.ipynb' | relative_url %}
+{% assign jupyter_path = 'assets/jupyter/weighter/loud_channel.ipynb' | relative_url %}
 {% jupyter_notebook jupyter_path %}
 {:/nomarkdown}
 
