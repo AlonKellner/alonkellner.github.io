@@ -5,7 +5,7 @@ layout: page
 title: Three Flies
 description: A poem with a twist on fears, about flies, humans, stories and horror.
 img: /assets/img/three-flies.jpeg
-og_image: https://alonkellner.com/assets/img/three-flies.png
+og_image: https://alonkellner.com/assets/img/three-flies.jpeg
 importance: 1
 category: poetry
 ---

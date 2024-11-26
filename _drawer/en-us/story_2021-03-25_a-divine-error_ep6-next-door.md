@@ -5,7 +5,7 @@ layout: page
 title: "A Divine Error, Episode 6: Next Door"
 description: An episodical comedy about philosophy, the military, life and everything in between.
 img: /assets/img/scary-itzik.jpeg
-og_image: https://alonkellner.com/assets/img/scary-itzik.png
+og_image: https://alonkellner.com/assets/img/scary-itzik.jpeg
 importance: 1
 category: stories
 ---

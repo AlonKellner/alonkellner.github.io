@@ -5,7 +5,7 @@ layout: page
 title: A Divine Error
 description: An episodical comedy about philosophy, the military, life and everything in between.
 img: /assets/img/divine-apple-worm.jpeg
-og_image: https://alonkellner.com/assets/img/divine-apple-worm.png
+og_image: https://alonkellner.com/assets/img/divine-apple-worm.jpeg
 importance: 1
 category: stories
 ---

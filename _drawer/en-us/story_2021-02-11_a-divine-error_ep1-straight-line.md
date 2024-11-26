@@ -5,7 +5,7 @@ layout: page
 title: "A Divine Error, Episode 1: Straight Line"
 description: An episodical comedy about philosophy, the military, life and everything in between.
 img: /assets/img/angry-bus-driver.jpeg
-og_image: https://alonkellner.com/assets/img/angry-bus-driver.png
+og_image: https://alonkellner.com/assets/img/angry-bus-driver.jpeg
 importance: 1
 category: stories
 ---
