@@ -546,20 +546,9 @@ footer.sticky-bottom {
   }
 }
 
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
 .post-title {
   width: 0;
-  animation:
-    fadeInRight 1s ease-in-out,
-    typing 3s forwards;
+  animation: fadeInRight 1s ease-in-out;
   transition: transform 330ms ease-in-out;
   transform-origin: 0% 50%;
   mjx-container[jax="CHTML"][display="true"] {
