@@ -197,7 +197,7 @@ First, let's recall the definition of BCE:
 <!-- prettier-ignore -->
 $$ BCE(y,\hat{y})=-y⋅\ln(\hat{y})-(1-y)⋅\ln(1-\hat{y}) $$
 
-In our development, we began with the question: can we replace the part that penalizes errors when y is 0 with something else that will maintain the minimum point of BCE in one dimension?
+In our development, we began with the question: can we replace the part that penalizes errors when `y = 0` with something else that will maintain the minimum point of BCE in one dimension?
 
 <!-- prettier-ignore -->
 $$ wBCE(y,\hat{y})=-y⋅\ln(\hat{y})+f(y, \hat{y}) $$
@@ -205,7 +205,7 @@ $$ wBCE(y,\hat{y})=-y⋅\ln(\hat{y})+f(y, \hat{y}) $$
 <!-- prettier-ignore -->
 $$ min(wBCE(y,\hat{y}))=min(BCE(y,\hat{y})) $$
 
-I won’t elaborate on this here, but I’ll mention that the minimum of BCE is simply y:
+I won’t elaborate on this here, but I’ll mention that the minimum of BCE is simply `y`:
 
 <!-- prettier-ignore -->
 $$ min(BCE(y,\hat{y}))=y $$
@@ -213,12 +213,12 @@ $$ min(BCE(y,\hat{y}))=y $$
 <!-- prettier-ignore -->
 $$ min(wBCE(y,\hat{y}))=y $$
 
-Let’s try to understand the desired properties for f to satisfy this condition.
+Let’s try to understand the desired properties for `f` to satisfy this condition.
 
 <!-- prettier-ignore -->
 $$ \frac{d}{d\hat{y}} wBCE(y,\hat{y})=-\frac{y}{\hat{y}}+\frac{d}{d\hat{y}}f(y, \hat{y}) $$
 
-We know that when y_hat = y, it is the minimum point, meaning the derivative equals 0:
+We know that when `y_hat = y`, it is the minimum point, meaning the derivative equals 0:
 
 <!-- prettier-ignore -->
 $$ -\frac{y}{y}+\frac{d}{d\hat{y}}f(y, \hat{y})=0 $$
@@ -226,10 +226,10 @@ $$ -\frac{y}{y}+\frac{d}{d\hat{y}}f(y, \hat{y})=0 $$
 <!-- prettier-ignore -->
 $$ \frac{d}{d\hat{y}}f(y, \hat{y})=1 $$
 
-(The case where y = 0 is important but will not be explained here, the desired properties remain)
+(The case where `y = 0` is important but will not be explained here, the desired properties remain)
 
-That is, the derivative of f when y_hat = y is 1.  
-Of course, there are infinitely many solutions to this problem, but we want a solution that is more moderate than ln, so a simple approach would be to aim for a linear formula like this:
+That is, the derivative of `f` when `y_hat = y` is 1.  
+Of course, there are infinitely many solutions to this problem, but we want a solution that is more moderate than `ln`, so a simple approach would be to aim for a linear formula like this:
 
 <!-- prettier-ignore -->
 $$ f(y, \hat{y})=m\hat{y}+n $$
@@ -253,11 +253,11 @@ To get more intuition about the differences, I’ll present some simple visualiz
 {% jupyter_notebook jupyter_path %}
 {:/nomarkdown}
 
-In the first set of graphs, you can see that the minimum point for both BCE and wBCE appears to align, exactly when y_hat = y.
+In the top plot, you can see that the minimum point for both BCE and wBCE appears to align, exactly when `y_hat = y`.
 
-In the second set of graphs, I numerically compute the derivatives (gradients) of both and show them. It is clear that both derivatives cross 0 at the same point, or in other words, the sign of the gradient of BCE always matches the sign of the gradient of wBCE.  
+In the bottom plot, I numerically compute the derivatives (gradients) of both and show them. It is clear that both derivatives cross 0 at the same point, or in other words, the sign of the gradient of BCE always matches the sign of the gradient of wBCE.  
 Additionally, you can see that BCE contains both large positive and negative gradients near the asymptotes, whereas wBCE contains only one asymptote near 0. This means wBCE has large negative gradients but its positive gradients are at most 1.
 
-As can be understood, wBCE does its job; it bounds the gradient size possible during a labeling error when y = 0.
+As can be understood, wBCE does its job; it bounds the gradient size possible during a labeling error when `y = 0`.
 
 The improvement from BCE to wBCE is not dramatic, but it was necessary for us to meet our objectives.
