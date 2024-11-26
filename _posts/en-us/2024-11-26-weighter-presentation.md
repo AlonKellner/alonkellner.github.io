@@ -43,9 +43,9 @@ Let's start :)
    During training, the model has a classification head, meaning its output is N vectors of logits the size of the number of classes (the number of speakers in the train-set, in our case 856).  
    During inference, we do not use the classification head, so instead of getting N vectors of logits we get N vectors of Embeddings (in our case 256 dimensions).
 
-2. **What does the model even learn if a "like" does not distinguish the file? What is the supervision here?**  
+2. **What does the model even learn if the set of "likes" is not complete for each file? What is the supervision here?**  
    The model learns to produce for each file a set of Embeddings, a subset of those Embeddings should represent the "likes" that were tagged on the file.  
-   In other words, the model learns to produce Embeddings that are similar to files that have the same "like", the very fact that there should be some common Embeddings is the supervision.
+   In other words, the model learns to produce Embeddings that are similar between files that have the same "like", the very fact that there should be some common Embeddings is the supervision.
 
 3. **You talked about clustering and that it is not differentiable, but there are ways to extract differentiable weightings from clustering algorithms, have you tried them?**  
    Short answer - we didn't try, it wasn't accessible enough and we had intuitions that it wouldn't work well.  
@@ -76,7 +76,7 @@ from torchaudio.models.wav2vec2.components import _get_wavlm_encoder, FeaturePro
 
 The function `_get_wavlm_encoder` creates a Transformer block with built-in positional embeddings, etc. It takes a sequence of vectors and outputs a sequence of the same size with self-attention, exactly what we were looking for.
 
-The class `FeatureProjection` is just a simple transformation with layer-norm and dropout that needs to be applied before feeding the input into the encoder.
+The class `FeatureProjection` is just a simple linear layer with layer-norm and dropout that needs to be applied before feeding the input into the encoder.
 
 This saved us the dependency on `transformers`, and maybe it can help you too :)
 
@@ -152,7 +152,7 @@ Our rationale was that this way, the tokens at each moment in time could focus o
 This approach showed significant improvement.
 
 At this point, we were quite satisfied. But when we looked at **X** and **Y**, one thing stood out to us – they were very similar.  
-At that level, we asked ourselves: why have **Y** at all? If they are the same, we can just replace **Y** with **X**:
+We asked ourselves: why have **Y** at all? If they are the same, we can just replace **Y** with **X**:
 
 <!-- prettier-ignore -->
 $$ C(\mathbf{X}) = \sum _{j=1}^{T} X_{j} \cdot W_{j}(\mathbf{X}) $$
@@ -170,7 +170,7 @@ But then we arrived at a very strange definition. Our confidence is **X** weight
 
 Our intuition behind this is that it is a kind of average where the larger the value, the more important it is.  
 Zero is not important at all, while 100 is twice as important as 50.  
-An example of a case where such a calculation would be necessary is in the context of the coronavirus. When trying to estimate how many people a confirmed infected patient could have been around, for example, if it was at a gathering of 100 people, they could infect 100 people, and if it was at a gathering of 200 people, they could infect 200 people.  
+An example of a case where such a calculation would be necessary is in the context of the coronavirus. When trying to estimate how many people a confirmed infected patient could have been around, for example, if they were at a gathering of 100 people, they could infect 100 people, and if they were at a gathering of 200 people, they could infect 200 people.  
 But what is the probability of them being at a gathering of 100 people versus 200 people?  
 The answer is that they are twice as likely to have been at a gathering of 200 people than a gathering of 100 people.  
 If we count all the gatherings, the probability of the confirmed person being at each one, and multiply by the number of people in each gathering, and call the distribution of quantities **X**, we get exactly **X** weighted by **X**.
@@ -181,7 +181,7 @@ If the model is not confident, it will output lower numbers without changing the
 
 In fact, just as the magnitude is independent of the direction of a vector, the information of the confidence is also independent of the weightings, meaning the model can change each of them without affecting the other.
 
-This is a non-obvious solution, an elegant one, and also the best one we tested. That's as good as they get in my opinion :)
+This is a non-obvious solution, an elegant one, and also the best one we tested. That's as good as solutions get in my opinion :)
 
 ### The wBCE Formula
 
@@ -234,7 +234,7 @@ Of course, there are infinitely many solutions to this problem, but we want a so
 <!-- prettier-ignore -->
 $$ f(y, \hat{y})=m\hat{y}+n $$
 
-Based on what we already know, we can conclude that m must be equal to 1, and we can choose n without affecting the minimum point.
+Based on what we already know, we can conclude that `m` must be equal to 1, and we can choose `n` without affecting the minimum point.
 
 The simplest solution would be:
 
